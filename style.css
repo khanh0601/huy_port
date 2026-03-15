@@ -20,7 +20,7 @@
 html {
   --fs-global: 0.5787037037vw;
   /* 1728px */
-  --page-padding: 8rem;
+  --page-padding: 6rem;
   --page-maxwidth: 1728px;
   font-size: var(--fs-global);
   height: auto;
