@@ -66,6 +66,9 @@ body, .body {
 body * {
   box-sizing: border-box;
 }
+p {
+  margin-block: 0;
+}
 .container {
   width: 100%;
   max-width: var(--page-maxwidth);
@@ -350,16 +353,20 @@ a {
   color: var(--cl-white);
 }
 .ic-13 {
+  display: flex;
   width: 1.3rem;
 }
 .ic-12 {
+  display: flex;
   width: 1.2rem;
 }
 .ic-14 {
+  display: flex;
   width: 1.4rem;
 }
 .ic-16 {
   width: 1.6rem;
+  display: flex;
 }
 .ic-arr-item {
   display: flex;
