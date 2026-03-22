@@ -235,7 +235,6 @@ class FadeSplitText {
         this.splitType = splitType || 'words';
         let animation;
         document.fonts.ready.then(() => {
-            gsap.set(this.DOM.el, { width: this.DOM.el.offsetWidth + 5 })
             console.log(this.splitType);
             this.textSplit = SplitText.create(this.DOM.el, {
                 type: this.splitType === 'words' ? "lines words" : `lines words ${this.splitType}`,

@@ -980,7 +980,7 @@ const script = () => {
                                 return new FadeIn({ el: $(itemTag), delay: `${indexTag * 0.1 + .6}`, type: 'bottom' })
                             }),
                             new FadeIn({ el: $(item).find('.home-project-item-cta'), delay: .9 }),
-                            new ScaleInset({ el: $(item).find('.home-project-item-img.on-dk').get(0) }),
+                            viewport.w < 992 ? new ScaleInset({ el: $(item).find('.home-project-item-img:not(.on-dk)').get(0) }) : new ScaleInset({ el: $(item).find('.home-project-item-img.on-dk').get(0) }),
                         ]
                     })
                 })
@@ -1043,6 +1043,20 @@ const script = () => {
                         type: "progressbar",
                     },
                 })
+                if (viewport.w < 992) {
+                    $('.home-social-job').addClass('swiper')
+                    $('.home-social-job-list').addClass('swiper-wrapper')
+                    $('.home-social-job-item').addClass('swiper-slide')
+                    let swiper = new Swiper('.home-social-job', {
+                        slidesPerView: 'auto',
+                        spaceBetween: cvUnit(24, 'rem'),
+                        pagination: {
+                            el: $('.home-social-job-line').get(0),
+                            type: "progressbar",
+                        },
+                    })
+
+                }
             }
             animationReveal() {
                 new MasterTimeline({
@@ -1288,8 +1302,9 @@ const script = () => {
                                 new FadeSplitText({ el: $(item).find('.home-certi-item-num').get(0), mask: 'lines' }),
                                 new FadeSplitText({ el: $(item).find('.home-certi-item-title').get(0), mask: 'lines' }),
                                 new FadeSplitText({ el: $(item).find('.home-certi-item-year').get(0), mask: 'lines' }),
+                                viewport.w < 991 ? new ScaleInset({ el: $(item).find('.home-certi-item-img').get(0) }) : null,
                                 new ScaleLine({ el: $(item).find('.home-certi-item-line').get(0) }),
-                            ]
+                            ].filter(Boolean)
                         })
                     ]
                 });
