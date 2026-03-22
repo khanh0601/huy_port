@@ -1,1169 +1,1846 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="home.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-inner">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+  <header class="header df-init">
+    <div class="header-bg"></div>
+    <div class="header-inner">
+      <div class="container grid">
+        <div class="header-logo">
+          <div class="heading h-32 header-logo-txt  txt-upper">DylanPhan</div>
+        </div>
+        <div class="header-nav">
+          <a href="#about" class="header-nav-item hover-un">
+            <div class="txt txt-14 txt-upper">About Me</div>
+          </a>
+          <a href="#exper" class="header-nav-item hover-un">
+            <div class="txt txt-14 txt-upper">Experience</div>
+          </a>
+          <a href="#project" class="header-nav-item hover-un">
+            <div class="txt txt-14 txt-upper">Projects</div>
+          </a>
+          <a href="mailto:dylanphan0469@gmail.com" class="header-nav-item hover-un">
+            <div class="txt txt-14 txt-upper">Contact</div>
+          </a>
+        </div>
+        <div class="header-cta">
+          <a href="mailto:dylanphan0469@gmail.com" class="btn hover-arr btn-primary">
+            <div class="txt txt-14 txt-upper">Contact Me</div>
+            <div class="ic-arr-main">
+              <div class="ic-arr-item ic-13">
+                <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                  <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
+              <div class="ic-arr-item ic-13">
+                <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                  <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </div>
+            </div>
+          </a>
+          <div class="header-toggle">
+            <div class="header-toggle-inner">
+              <div class="header-toggle-line"></div>
+              <div class="header-toggle-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="cursor">
+    <div class="cursor-main">
+      <div class="cursor-inner">
+        <div class="cursor-view txt txt-16 lh-1 txt-med">View</div>
+      </div>
+    </div>
+  </div>
+  <main class="main" data-namespace="home">
+    <popup-wrap class="web-comp">
+      <div class="popup">
+        <div class="popup-inner">
+          <div class="popup-close txt txt-16">Close</div>
+          <div class="popup-main" data-lenis-prevent>
+            <div class="popup-item">
+              <div class="popup-item-title heading h-32">Pirq (Plant- Based Protein Drink)</div>
+              <div class="popup-item-info">
+                <div class="popup-item-info-item">
+                  <div class="popup-item-info-label txt txt-16">Company</div>
+                  <div class="popup-item-info-title txt txt-16 txt-med">Pirq (Plant- Based Protein Drink) </div>
+                </div>
+                <div class="popup-item-info-item">
+                  <div class="popup-item-info-label txt txt-16">Position</div>
+                  <div class="popup-item-info-title txt txt-16 txt-med">Marketing Researcher</div>
+                </div>
+                <a class="popup-item-info-link txt txt-16">
+                  <div class="popup-item-info-link-ic ic-16">
+                    <svg width="100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_216_1346)">
+                        <path
+                          d="M8 0C6.41775 0 4.87103 0.469192 3.55544 1.34824C2.23985 2.22729 1.21447 3.47672 0.608967 4.93853C0.00346625 6.40034 -0.15496 8.00887 0.153721 9.56072C0.462403 11.1126 1.22433 12.538 2.34315 13.6569C3.46197 14.7757 4.88743 15.5376 6.43928 15.8463C7.99113 16.155 9.59966 15.9965 11.0615 15.391C12.5233 14.7855 13.7727 13.7602 14.6518 12.4446C15.5308 11.129 16 9.58225 16 8C15.9937 5.88022 15.1488 3.84906 13.6499 2.35014C12.1509 0.851219 10.1198 0.00633091 8 0ZM10.924 6.765L8.424 10.765C8.37906 10.8369 8.31656 10.8962 8.24239 10.9373C8.16822 10.9784 8.08481 11 8 11C7.9152 11 7.83179 10.9784 7.75762 10.9373C7.68345 10.8962 7.62095 10.8369 7.576 10.765L5.076 6.765C5.0287 6.68931 5.00252 6.60235 5.00017 6.51312C4.99783 6.4239 5.01941 6.33568 5.06268 6.25762C5.10595 6.17955 5.16932 6.11449 5.24622 6.06919C5.32313 6.02389 5.41075 6 5.5 6H10.5C10.5893 6 10.6769 6.02389 10.7538 6.06919C10.8307 6.11449 10.8941 6.17955 10.9373 6.25762C10.9806 6.33568 11.0022 6.4239 10.9998 6.51312C10.9975 6.60235 10.9713 6.68931 10.924 6.765Z"
+                          fill="white" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_216_1346">
+                          <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div>Download file</div>
+                </a>
+              </div>
+              <div class="popup-item-sub heading h-24 txt-upper">What is cml?</div>
+              <div class="popup-item-desc txt txt-16">
+                <p>Established in 2007, Canadian Marketing League is Canada's LARGEST Marketing Case Competition,
+                  mirroring the NHL/NBA intensity.</p>
+                <p>The competition calls for Marketing talents across 30+ Universities across the nation to compete in a
+                  three-phased competition for a $20,000 grand prize annually.</p>
+              </div>
+              <div class="popup-item-carrer">
+                <div class="popup-item-carrer-item">
+                  <div class="heading h-40 popup-item-carrer-title">120+</div>
+                  <div class="txt txt-14 popup-item-carrer-label txt-upper">Careers Started</div>
+                </div>
+                <div class="popup-item-carrer-item">
+                  <div class="heading h-40 popup-item-carrer-title">570K+</div>
+                  <div class="txt txt-14 popup-item-carrer-label txt-upper">in Prizes Awarded</div>
+                </div>
+                <div class="popup-item-carrer-item">
+                  <div class="heading h-40 popup-item-carrer-title">20+</div>
+                  <div class="txt txt-14 popup-item-carrer-label txt-upper">Academic Partners</div>
+                </div>
+              </div>
+              <div class="popup-item-img">
+                <img src="./imgs/popup-img.jpg" class="img-basic" alt="">
+              </div>
+              <div class="popup-item-partner">
+                <div class="txt txt-upper txt-14 txt-med popup-item-partner-title">OUR SEASON'S PARTNERS</div>
+                <div class="popup-item-partner-logo">
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo1.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo2.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo3.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo4.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo5.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo6.png" class="img-basic" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="popup-item-role">
+                <div class="popup-item-role-title heading h-24 txt-upper">WHAT IS MY ROLE?</div>
+                <div class="popup-item-role-sub txt txt-18">
+                  <p>As the Lead Marketing Strategist, I led a Marketing Team of 4 alongside an executive team of 13 to
+                    develop and spearhead the Content Calendar to raise brand awareness for the competition
+                    across various channels (Instagram, LinkedIn, TikTok, Campus Visits, etc).</p>
+                  <p>
+                    Being in charge of a budget of $100,000, I've developed various social media marketing campaigns to
+                    not only amplify the reach of the program nationally but also ensure a solid conversion rate to
+                    break previous year's record of Applicant Registrations.
+                  </p>
+                </div>
+                <div class="popup-item-role-desc txt  txt-14 txt-med">I GOT MY HANDS ON..</div>
+                <div class="popup-item-role-list">
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">01</div>
+                    <div class="popup-item-role-item-title heading h-24">PROJECT MANAGEMENT</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">02</div>
+                    <div class="popup-item-role-item-title heading h-24">Data-driven Strategy</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">03</div>
+                    <div class="popup-item-role-item-title heading h-24">Brand Marketing</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">04</div>
+                    <div class="popup-item-role-item-title heading h-24">Digital Marketing</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">05</div>
+                    <div class="popup-item-role-item-title heading h-24">Content Creation</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">06</div>
+                    <div class="popup-item-role-item-title heading h-24">Sales & Pitching</div>
+                  </div>
+                </div>
+              </div>
+              <div class="popup-item-detail">
+                <div class="popup-item-detail-title heading h-24 txt-upper">Details</div>
+                <div class="popup-item-detail-sub txt-14 txt txt-med txt-upper">CAMPAIGN spotlight #1: SPOTIFY WRAPPED
+                </div>
+                <div class="popup-item-detail-cms swiper">
+                  <div class="popup-item-detail-list swiper-wrapper">
+                    <div class="popup-item-detail-item swiper-slide">
+                      <div class="popup-item-detail-item-img">
+                        <img src="imgs/popup-detail1.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-detail-item swiper-slide">
+                      <div class="popup-item-detail-item-img">
+                        <img src="imgs/popup-detail2.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="line-pagi popup-item-detail-pagi">
+                    <div class="line-pagi-inner"></div>
+                  </div>
+                </div>
+                <div class="popup-item-detail-progress">
+                  <div class="popup-item-detail-progress-inner"></div>
+                </div>
+              </div>
+              <div class="popup-item-result">
+                <div class="popup-item-result-title heading h-24">Results</div>
+                <div class="popup-item-result-cms">
+                  <div class="popup-item-result-list">
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result1.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result2.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result3.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result4.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Selection</div>
+                <div class="popup-item-result-desc txt txt-18 ">
+                  <p>Content being chosen by National Brand Team as Ads to implement in the 2024 Fall Recruitment
+                    Campaign, on a national scale!</p>
+                  <p>Being in charge of a budget of $100,000, I’ve developed various social media marketing campaigns to
+                    not only amplify the reach of the program nationally but also ensure a solid conversion rate to
+                    break previous year’s record of Applicant Registrations.</p>
+                </div>
+                <div class="popup-item-result-info">
+                  <div class="popup-item-result-info-item">
+                    <div class="popup-item-result-info-number heading h-40">39%</div>
+                    <div class="popup-item-result-info-label txt txt-14">SUBMISSIONS</div>
+                  </div>
+                  <div class="popup-item-result-info-item">
+                    <div class="popup-item-result-info-number heading h-40">>1.5M</div>
+                    <div class="popup-item-result-info-label txt txt-14">IMPRESSIONS</div>
+                  </div>
+                  <div class="popup-item-result-info-item">
+                    <div class="popup-item-result-info-number heading h-40">8600</div>
+                    <div class="popup-item-result-info-label txt txt-14">total followers</div>
+                  </div>
+                </div>
+                <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Performance</div>
+                <div class="popup-item-result-desc txt txt-18 ">
+                  <p>As the Lead Marketing Strategist, I led a Marketing Team of 4 alongside an executive team of 13 to
+                    develop and spearhead the Content Calendar to raise brand awareness for the competition
+                    across various channels (Instagram, LinkedIn, TikTok, Campus Visits, etc).</p>
+                </div>
+                <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Impact</div>
+                <div class="popup-item-result-desc txt txt-18 ">
+                  <p>Reached 50K+ prospects nationwide and contributed to 4K+ applications in GTA region.</p>
+                </div>
+              </div>
+            </div>
+            <div class="popup-item">
+              <div class="popup-item-title heading h-32">Pirq (Plant- Based Protein Drink)</div>
+              <div class="popup-item-info">
+                <div class="popup-item-info-item">
+                  <div class="popup-item-info-label txt txt-16">Company</div>
+                  <div class="popup-item-info-title txt txt-16 txt-med">Pirq (Plant- Based Protein Drink) </div>
+                </div>
+                <div class="popup-item-info-item">
+                  <div class="popup-item-info-label txt txt-16">Position</div>
+                  <div class="popup-item-info-title txt txt-16 txt-med">Marketing Researcher</div>
+                </div>
+                <a class="popup-item-info-link txt txt-16">
+                  <div class="popup-item-info-link-ic ic-16">
+                    <svg width="100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_216_1346)">
+                        <path
+                          d="M8 0C6.41775 0 4.87103 0.469192 3.55544 1.34824C2.23985 2.22729 1.21447 3.47672 0.608967 4.93853C0.00346625 6.40034 -0.15496 8.00887 0.153721 9.56072C0.462403 11.1126 1.22433 12.538 2.34315 13.6569C3.46197 14.7757 4.88743 15.5376 6.43928 15.8463C7.99113 16.155 9.59966 15.9965 11.0615 15.391C12.5233 14.7855 13.7727 13.7602 14.6518 12.4446C15.5308 11.129 16 9.58225 16 8C15.9937 5.88022 15.1488 3.84906 13.6499 2.35014C12.1509 0.851219 10.1198 0.00633091 8 0ZM10.924 6.765L8.424 10.765C8.37906 10.8369 8.31656 10.8962 8.24239 10.9373C8.16822 10.9784 8.08481 11 8 11C7.9152 11 7.83179 10.9784 7.75762 10.9373C7.68345 10.8962 7.62095 10.8369 7.576 10.765L5.076 6.765C5.0287 6.68931 5.00252 6.60235 5.00017 6.51312C4.99783 6.4239 5.01941 6.33568 5.06268 6.25762C5.10595 6.17955 5.16932 6.11449 5.24622 6.06919C5.32313 6.02389 5.41075 6 5.5 6H10.5C10.5893 6 10.6769 6.02389 10.7538 6.06919C10.8307 6.11449 10.8941 6.17955 10.9373 6.25762C10.9806 6.33568 11.0022 6.4239 10.9998 6.51312C10.9975 6.60235 10.9713 6.68931 10.924 6.765Z"
+                          fill="white" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_216_1346">
+                          <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div>Download file</div>
+                </a>
+              </div>
+              <div class="popup-item-sub heading h-24 txt-upper">What is cml?</div>
+              <div class="popup-item-desc txt txt-16">
+                <p>Established in 2007, Canadian Marketing League is Canada's LARGEST Marketing Case Competition,
+                  mirroring the NHL/NBA intensity.</p>
+                <p>The competition calls for Marketing talents across 30+ Universities across the nation to compete in a
+                  three-phased competition for a $20,000 grand prize annually.</p>
+              </div>
+              <div class="popup-item-carrer">
+                <div class="popup-item-carrer-item">
+                  <div class="heading h-40 popup-item-carrer-title">120+</div>
+                  <div class="txt txt-14 popup-item-carrer-label txt-upper">Careers Started</div>
+                </div>
+                <div class="popup-item-carrer-item">
+                  <div class="heading h-40 popup-item-carrer-title">570K+</div>
+                  <div class="txt txt-14 popup-item-carrer-label txt-upper">in Prizes Awarded</div>
+                </div>
+                <div class="popup-item-carrer-item">
+                  <div class="heading h-40 popup-item-carrer-title">20+</div>
+                  <div class="txt txt-14 popup-item-carrer-label txt-upper">Academic Partners</div>
+                </div>
+              </div>
+              <div class="popup-item-img">
+                <img src="./imgs/popup-img.jpg" class="img-basic" alt="">
+              </div>
+              <div class="popup-item-partner">
+                <div class="txt txt-upper txt-14 txt-med popup-item-partner-title">OUR SEASON'S PARTNERS</div>
+                <div class="popup-item-partner-logo">
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo1.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo2.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo3.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo4.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo5.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo6.png" class="img-basic" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="popup-item-role">
+                <div class="popup-item-role-title heading h-24 txt-upper">WHAT IS MY ROLE?</div>
+                <div class="popup-item-role-sub txt txt-18">
+                  <p>As the Lead Marketing Strategist, I led a Marketing Team of 4 alongside an executive team of 13 to
+                    develop and spearhead the Content Calendar to raise brand awareness for the competition
+                    across various channels (Instagram, LinkedIn, TikTok, Campus Visits, etc).</p>
+                  <p>
+                    Being in charge of a budget of $100,000, I've developed various social media marketing campaigns to
+                    not only amplify the reach of the program nationally but also ensure a solid conversion rate to
+                    break previous year's record of Applicant Registrations.
+                  </p>
+                </div>
+                <div class="popup-item-role-desc txt  txt-14 txt-med">I GOT MY HANDS ON..</div>
+                <div class="popup-item-role-list">
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">01</div>
+                    <div class="popup-item-role-item-title heading h-24">PROJECT MANAGEMENT</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">02</div>
+                    <div class="popup-item-role-item-title heading h-24">Data-driven Strategy</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">03</div>
+                    <div class="popup-item-role-item-title heading h-24">Brand Marketing</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">04</div>
+                    <div class="popup-item-role-item-title heading h-24">Digital Marketing</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">05</div>
+                    <div class="popup-item-role-item-title heading h-24">Content Creation</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">06</div>
+                    <div class="popup-item-role-item-title heading h-24">Sales & Pitching</div>
+                  </div>
+                </div>
+              </div>
+              <div class="popup-item-detail">
+                <div class="popup-item-detail-title heading h-24 txt-upper">Details</div>
+                <div class="popup-item-detail-sub txt-14 txt txt-med txt-upper">CAMPAIGN spotlight #1: SPOTIFY WRAPPED
+                </div>
+                <div class="popup-item-detail-cms swiper">
+                  <div class="popup-item-detail-list swiper-wrapper">
+                    <div class="popup-item-detail-item swiper-slide">
+                      <div class="popup-item-detail-item-img">
+                        <img src="imgs/popup-detail1.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-detail-item swiper-slide">
+                      <div class="popup-item-detail-item-img">
+                        <img src="imgs/popup-detail2.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="line-pagi popup-item-detail-pagi">
+                    <div class="line-pagi-inner"></div>
+                  </div>
+                </div>
+                <div class="popup-item-detail-progress">
+                  <div class="popup-item-detail-progress-inner"></div>
+                </div>
+              </div>
+              <div class="popup-item-result">
+                <div class="popup-item-result-title heading h-24">Results</div>
+                <div class="popup-item-result-cms">
+                  <div class="popup-item-result-list">
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result1.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result2.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result3.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result4.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Selection</div>
+                <div class="popup-item-result-desc txt txt-18 ">
+                  <p>Content being chosen by National Brand Team as Ads to implement in the 2024 Fall Recruitment
+                    Campaign, on a national scale!</p>
+                  <p>Being in charge of a budget of $100,000, I’ve developed various social media marketing campaigns to
+                    not only amplify the reach of the program nationally but also ensure a solid conversion rate to
+                    break previous year’s record of Applicant Registrations.</p>
+                </div>
+                <div class="popup-item-result-info">
+                  <div class="popup-item-result-info-item">
+                    <div class="popup-item-result-info-number heading h-40">39%</div>
+                    <div class="popup-item-result-info-label txt txt-14">SUBMISSIONS</div>
+                  </div>
+                  <div class="popup-item-result-info-item">
+                    <div class="popup-item-result-info-number heading h-40">>1.5M</div>
+                    <div class="popup-item-result-info-label txt txt-14">IMPRESSIONS</div>
+                  </div>
+                  <div class="popup-item-result-info-item">
+                    <div class="popup-item-result-info-number heading h-40">8600</div>
+                    <div class="popup-item-result-info-label txt txt-14">total followers</div>
+                  </div>
+                </div>
+                <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Performance</div>
+                <div class="popup-item-result-desc txt txt-18 ">
+                  <p>As the Lead Marketing Strategist, I led a Marketing Team of 4 alongside an executive team of 13 to
+                    develop and spearhead the Content Calendar to raise brand awareness for the competition
+                    across various channels (Instagram, LinkedIn, TikTok, Campus Visits, etc).</p>
+                </div>
+                <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Impact</div>
+                <div class="popup-item-result-desc txt txt-18 ">
+                  <p>Reached 50K+ prospects nationwide and contributed to 4K+ applications in GTA region.</p>
+                </div>
+              </div>
+            </div>
+            <div class="popup-item">
+              <div class="popup-item-title heading h-32">Pirq (Plant- Based Protein Drink)</div>
+              <div class="popup-item-info">
+                <div class="popup-item-info-item">
+                  <div class="popup-item-info-label txt txt-16">Company</div>
+                  <div class="popup-item-info-title txt txt-16 txt-med">Pirq (Plant- Based Protein Drink) </div>
+                </div>
+                <div class="popup-item-info-item">
+                  <div class="popup-item-info-label txt txt-16">Position</div>
+                  <div class="popup-item-info-title txt txt-16 txt-med">Marketing Researcher</div>
+                </div>
+                <a class="popup-item-info-link txt txt-16">
+                  <div class="popup-item-info-link-ic ic-16">
+                    <svg width="100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_216_1346)">
+                        <path
+                          d="M8 0C6.41775 0 4.87103 0.469192 3.55544 1.34824C2.23985 2.22729 1.21447 3.47672 0.608967 4.93853C0.00346625 6.40034 -0.15496 8.00887 0.153721 9.56072C0.462403 11.1126 1.22433 12.538 2.34315 13.6569C3.46197 14.7757 4.88743 15.5376 6.43928 15.8463C7.99113 16.155 9.59966 15.9965 11.0615 15.391C12.5233 14.7855 13.7727 13.7602 14.6518 12.4446C15.5308 11.129 16 9.58225 16 8C15.9937 5.88022 15.1488 3.84906 13.6499 2.35014C12.1509 0.851219 10.1198 0.00633091 8 0ZM10.924 6.765L8.424 10.765C8.37906 10.8369 8.31656 10.8962 8.24239 10.9373C8.16822 10.9784 8.08481 11 8 11C7.9152 11 7.83179 10.9784 7.75762 10.9373C7.68345 10.8962 7.62095 10.8369 7.576 10.765L5.076 6.765C5.0287 6.68931 5.00252 6.60235 5.00017 6.51312C4.99783 6.4239 5.01941 6.33568 5.06268 6.25762C5.10595 6.17955 5.16932 6.11449 5.24622 6.06919C5.32313 6.02389 5.41075 6 5.5 6H10.5C10.5893 6 10.6769 6.02389 10.7538 6.06919C10.8307 6.11449 10.8941 6.17955 10.9373 6.25762C10.9806 6.33568 11.0022 6.4239 10.9998 6.51312C10.9975 6.60235 10.9713 6.68931 10.924 6.765Z"
+                          fill="white" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_216_1346">
+                          <rect width="16" height="16" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </div>
+                  <div>Download file</div>
+                </a>
+              </div>
+              <div class="popup-item-sub heading h-24 txt-upper">What is cml?</div>
+              <div class="popup-item-desc txt txt-16">
+                <p>Established in 2007, Canadian Marketing League is Canada's LARGEST Marketing Case Competition,
+                  mirroring the NHL/NBA intensity.</p>
+                <p>The competition calls for Marketing talents across 30+ Universities across the nation to compete in a
+                  three-phased competition for a $20,000 grand prize annually.</p>
+              </div>
+              <div class="popup-item-carrer">
+                <div class="popup-item-carrer-item">
+                  <div class="heading h-40 popup-item-carrer-title">120+</div>
+                  <div class="txt txt-14 popup-item-carrer-label txt-upper">Careers Started</div>
+                </div>
+                <div class="popup-item-carrer-item">
+                  <div class="heading h-40 popup-item-carrer-title">570K+</div>
+                  <div class="txt txt-14 popup-item-carrer-label txt-upper">in Prizes Awarded</div>
+                </div>
+                <div class="popup-item-carrer-item">
+                  <div class="heading h-40 popup-item-carrer-title">20+</div>
+                  <div class="txt txt-14 popup-item-carrer-label txt-upper">Academic Partners</div>
+                </div>
+              </div>
+              <div class="popup-item-img">
+                <img src="./imgs/popup-img.jpg" class="img-basic" alt="">
+              </div>
+              <div class="popup-item-partner">
+                <div class="txt txt-upper txt-14 txt-med popup-item-partner-title">OUR SEASON'S PARTNERS</div>
+                <div class="popup-item-partner-logo">
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo1.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo2.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo3.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo4.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo5.png" class="img-basic" alt="">
+                  </div>
+                  <div class="popup-item-partner-logo-item">
+                    <img src="./imgs/partner-logo6.png" class="img-basic" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="popup-item-role">
+                <div class="popup-item-role-title heading h-24 txt-upper">WHAT IS MY ROLE?</div>
+                <div class="popup-item-role-sub txt txt-18">
+                  <p>As the Lead Marketing Strategist, I led a Marketing Team of 4 alongside an executive team of 13 to
+                    develop and spearhead the Content Calendar to raise brand awareness for the competition
+                    across various channels (Instagram, LinkedIn, TikTok, Campus Visits, etc).</p>
+                  <p>
+                    Being in charge of a budget of $100,000, I've developed various social media marketing campaigns to
+                    not only amplify the reach of the program nationally but also ensure a solid conversion rate to
+                    break previous year's record of Applicant Registrations.
+                  </p>
+                </div>
+                <div class="popup-item-role-desc txt  txt-14 txt-med">I GOT MY HANDS ON..</div>
+                <div class="popup-item-role-list">
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">01</div>
+                    <div class="popup-item-role-item-title heading h-24">PROJECT MANAGEMENT</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">02</div>
+                    <div class="popup-item-role-item-title heading h-24">Data-driven Strategy</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">03</div>
+                    <div class="popup-item-role-item-title heading h-24">Brand Marketing</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">04</div>
+                    <div class="popup-item-role-item-title heading h-24">Digital Marketing</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">05</div>
+                    <div class="popup-item-role-item-title heading h-24">Content Creation</div>
+                  </div>
+                  <div class="popup-item-role-item">
+                    <div class="popup-item-role-item-numb txt txt-20">06</div>
+                    <div class="popup-item-role-item-title heading h-24">Sales & Pitching</div>
+                  </div>
+                </div>
+              </div>
+              <div class="popup-item-detail">
+                <div class="popup-item-detail-title heading h-24 txt-upper">Details</div>
+                <div class="popup-item-detail-sub txt-14 txt txt-med txt-upper">CAMPAIGN spotlight #1: SPOTIFY WRAPPED
+                </div>
+                <div class="popup-item-detail-cms swiper">
+                  <div class="popup-item-detail-list swiper-wrapper">
+                    <div class="popup-item-detail-item swiper-slide">
+                      <div class="popup-item-detail-item-img">
+                        <img src="imgs/popup-detail1.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-detail-item swiper-slide">
+                      <div class="popup-item-detail-item-img">
+                        <img src="imgs/popup-detail2.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="line-pagi popup-item-detail-pagi">
+                    <div class="line-pagi-inner"></div>
+                  </div>
+                </div>
+                <div class="popup-item-detail-progress">
+                  <div class="popup-item-detail-progress-inner"></div>
+                </div>
+              </div>
+              <div class="popup-item-result">
+                <div class="popup-item-result-title heading h-24">Results</div>
+                <div class="popup-item-result-cms">
+                  <div class="popup-item-result-list">
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result1.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result2.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result3.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                    <div class="popup-item-result-item">
+                      <div class="popup-item-result-img">
+                        <img src="imgs/popup-result4.jpg" class="img-basic" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Selection</div>
+                <div class="popup-item-result-desc txt txt-18 ">
+                  <p>Content being chosen by National Brand Team as Ads to implement in the 2024 Fall Recruitment
+                    Campaign, on a national scale!</p>
+                  <p>Being in charge of a budget of $100,000, I’ve developed various social media marketing campaigns to
+                    not only amplify the reach of the program nationally but also ensure a solid conversion rate to
+                    break previous year’s record of Applicant Registrations.</p>
+                </div>
+                <div class="popup-item-result-info">
+                  <div class="popup-item-result-info-item">
+                    <div class="popup-item-result-info-number heading h-40">39%</div>
+                    <div class="popup-item-result-info-label txt txt-14">SUBMISSIONS</div>
+                  </div>
+                  <div class="popup-item-result-info-item">
+                    <div class="popup-item-result-info-number heading h-40">>1.5M</div>
+                    <div class="popup-item-result-info-label txt txt-14">IMPRESSIONS</div>
+                  </div>
+                  <div class="popup-item-result-info-item">
+                    <div class="popup-item-result-info-number heading h-40">8600</div>
+                    <div class="popup-item-result-info-label txt txt-14">total followers</div>
+                  </div>
+                </div>
+                <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Performance</div>
+                <div class="popup-item-result-desc txt txt-18 ">
+                  <p>As the Lead Marketing Strategist, I led a Marketing Team of 4 alongside an executive team of 13 to
+                    develop and spearhead the Content Calendar to raise brand awareness for the competition
+                    across various channels (Instagram, LinkedIn, TikTok, Campus Visits, etc).</p>
+                </div>
+                <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Impact</div>
+                <div class="popup-item-result-desc txt txt-18 ">
+                  <p>Reached 50K+ prospects nationwide and contributed to 4K+ applications in GTA region.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </popup-wrap>
+    <home-hero-wrap class="web-comp">
+      <section class="home-hero df-init">
         <div class="container grid">
-          <div class="header-logo">
-            <div class="heading h-40 header-logo-txt ">Dylanphannnn</div>
+          <div class="home-hero-left">
+            <div class="home-hero-title-wrap">
+              <div class="home-hero-label txt txt-14 txt-upper">Marketing Portfolio by Dylan Phan</div>
+              <h1 class="heading h-40 home-hero-title txt-upper ">
+                HELLO! I'M DYLAN PHAN DIGITAL MARKETER & CONTENT CREATOR
+              </h1>
+            </div>
+            <div class="home-hero-social only-dk">
+              <a href="#" class="home-hero-social-item hover-arr" data-cursor="txtLink">
+                <div class="txt txt-14 txt-upper home-hero-social-item-txt">linkedin</div>
+                <div class="ic-arr-main">
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="home-hero-social-item hover-arr" data-cursor="txtLink">
+                <div class="txt txt-14 txt-upper home-hero-social-item-txt">Instagram </div>
+                <div class="ic-arr-main">
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="home-hero-social-item hover-arr" data-cursor="txtLink">
+                <div class="txt txt-14 txt-upper home-hero-social-item-txt">Twitter</div>
+                <div class="ic-arr-main">
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-          <div class="header-nav">
-            <a href="#" class="header-nav-item hover-un"><div class="txt txt-14 txt-upper">About Me</div></a>
-            <a href="#" class="header-nav-item hover-un"><div class="txt txt-14 txt-upper">Experience</div></a>
-            <a href="#" class="header-nav-item hover-un"><div class="txt txt-14 txt-upper">Projects</div></a>
-            <a href="#" class="header-nav-item hover-un"><div class="txt txt-14 txt-upper">Contact</div></a>
+          <div class="home-hero-center">
+            <div class="home-hero-avt">
+              <img src="./imgs/home-hero.webp" class="img-basic" alt="">
+            </div>
           </div>
-          <div class="header-cta">
-            <a href="#" class="btn hover-arr btn-primary">
-              <div class="txt txt-14 txt-upper">Contact Me</div>
+          <div class="home-hero-right">
+            <a href="mailto:dylanphan0469@gmail.com" class="home-hero-cta">
               <div class="ic-arr-main">
                 <div class="ic-arr-item ic-13">
                   <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                    <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>                
+                    <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                    <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
                 </div>
                 <div class="ic-arr-item ic-13">
                   <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                    <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>                
+                    <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                    <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+              </div>
+              <div class="txt txt-16 txt-med txt-upper home-hero-cta-txt">Contact Me</div>
+            </a>
+            <div class="home-hero-job">
+              <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">Digital Marketing</div>
+              <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">content strategy</div>
+              <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">MARKETING ANALYTICS</div>
+              <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">Content Creation</div>
+              <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">CREATOR MARKETING</div>
+              <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">Social Media</div>
+            </div>
+            <div class="home-hero-social only-tablet">
+              <a href="#" class="home-hero-social-item hover-arr">
+                <div class="txt txt-14 txt-upper home-hero-social-item-txt">linkedin</div>
+                <div class="ic-arr-main">
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="home-hero-social-item hover-arr">
+                <div class="txt txt-14 txt-upper home-hero-social-item-txt">Instagram </div>
+                <div class="ic-arr-main">
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+              <a href="#" class="home-hero-social-item hover-arr">
+                <div class="txt txt-14 txt-upper home-hero-social-item-txt">Twitter</div>
+                <div class="ic-arr-main">
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                  <div class="ic-arr-item ic-14">
+                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="home-hero-digi" data-marquee="list">
+          <div class="home-hero-digi-list" data-marquee="item">
+            <div class="home-hero-digi-item heading h-120 txt-upper">digital Marketing_ digital Marketing_ digital
+              Marketing_ digital Marketing_</div>
+          </div>
+        </div>
+      </section>
+    </home-hero-wrap>
+    <home-about-wrap class="web-comp">
+      <section class="home-about" id="about">
+        <div class="container">
+          <div class="home-about-head grid">
+            <div class="home-about-label txt txt-16 txt-med txt-upper">About Me</div>
+            <div class="home-about-contact">
+              <div class="home-about-contact-item">
+                <div class="home-about-contact-item-label txt txt-14 txt-upper">Position</div>
+                <div class="home-about-contact-item-value txt-med txt txt-14 txt-upper">DIGITAL MARKETER & CONTENT
+                  CREATOR</div>
+              </div>
+              <div class="home-about-contact-item">
+                <div class="home-about-contact-item-label txt txt-14 txt-upper">Email</div>
+                <a href="mailTo:dylanphan0469@gmail.com"
+                  class="home-about-contact-item-value txt-med txt txt-14 txt-upper">dylanphan0469@gmail.com</a>
+              </div>
+              <div class="home-about-contact-item">
+                <div class="home-about-contact-item-label txt txt-14 txt-upper">Phone</div>
+                <div class="home-about-contact-item-value txt-med txt txt-14 txt-upper">+1 (208) 617-4062 </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-about-main grid">
+            <div class="home-about-avt">
+              <div class="home-about-avt-img">
+                <img src="./imgs/about.jpg" class="img-basic" alt="">
+              </div>
+            </div>
+            <div class="home-about-content">
+              <div class="home-about-content-inner heading h-32">
+                <p>Hi, I'm Dylan! Since I was young, I've always been drawn to creativity and expressing ideas through
+                  storytelling and presentations. That passion naturally led me to becoming a content creator and
+                  developing a strong interest in marketing.</p>
+                <p>To me, marketing is more than just promotion. It's the way brands position themselves in the minds of
+                  customers through meaningful messaging and the value they deliver.</p>
+                <p>As a Business Administration graduate from Boise State University, I am eager to continue learning,
+                  exploring opportunities, and growing within the marketing field. Over the past four years, through
+                  internships and various projects, I’ve gained hands-on experience in digital marketing, SEO, email
+                  marketing, content creation, data analytics, account management, and performance reporting. I’m also
+                  comfortable working with a range of marketing and analytics tools.</p>
+                <p>With creativity, curiosity, and a strong desire to grow, I'm excited to contribute my skills and
+                  collaborate with organizations that value strategic thinking and impactful storytelling.</p>
+              </div>
+              <a href="#" class="home-about-cta btn btn-primary">
+                <div class="txt txt-14 txt-med txt-upper home-about-cta-txt">DOWNLOAD MY RESUME</div>
+                <div class="ic-16">
+                  <svg width="100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 14H2M12 7.33333L8 11.3333M8 11.3333L4 7.33333M8 11.3333V2" stroke="white"
+                      stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </home-about-wrap>
+    <home-exper-wrap class="web-comp">
+      <section class="home-exper" id="exper">
+        <div class="div-line home-exper-line"></div>
+        <div class="container grid">
+          <div class="home-exper-label txt txt-16 txt-med txt-upper">Passion & Experience</div>
+          <div class="home-exper-cms">
+            <div class="home-exper-list">
+              <div class="home-exper-item">
+                <div class="home-exper-item-title heading h-120">4+</div>
+                <div class="home-exper-item-sub txt txt-20 txt-med">Marketing</div>
+                <div class="div-line home-exper-item-line"></div>
+              </div>
+              <div class="home-exper-item">
+                <div class="home-exper-item-title heading h-120">2+</div>
+                <div class="home-exper-item-sub txt txt-20 txt-med">Social Media</div>
+                <div class="div-line home-exper-item-line"></div>
+              </div>
+              <div class="home-exper-item">
+                <div class="home-exper-item-title heading h-120">1+</div>
+                <div class="home-exper-item-sub txt txt-20 txt-med">account</div>
+                <div class="div-line home-exper-item-line"></div>
+              </div>
+              <div class="home-exper-item">
+                <div class="home-exper-item-title heading h-120">45</div>
+                <div class="home-exper-item-sub txt txt-20 txt-med">Our Project Complete</div>
+                <div class="div-line home-exper-item-line"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </home-exper-wrap>
+    <home-comp-wrap class="web-comp">
+      <section class="home-comp">
+        <div class="home-comp-title txt txt-16 txt-med txt-upper txt-center">Software Competencies</div>
+        <div class="home-comp-cms" data-marquee="list">
+          <div class="home-comp-list" data-marquee="item">
+            <div class="home-comp-item">
+              <img src="./imgs/ic_ai.svg" class="img-basic" alt="">
+            </div>
+            <div class="home-comp-item">
+              <img src="./imgs/ic_canvas.svg" class="img-basic" alt="">
+            </div>
+            <div class="home-comp-item">
+              <img src="./imgs/ic_excel.svg" class="img-basic" alt="">
+            </div>
+            <div class="home-comp-item">
+              <img src="./imgs/ic_figma.svg" class="img-basic" alt="">
+            </div>
+            <div class="home-comp-item">
+              <img src="./imgs/ic_mc.svg" class="img-basic" alt="">
+            </div>
+            <div class="home-comp-item">
+              <img src="./imgs/ic_n.svg" class="img-basic" alt="">
+            </div>
+            <div class="home-comp-item">
+              <img src="./imgs/ic_ps.svg" class="img-basic" alt="">
+            </div>
+            <div class="home-comp-item">
+              <img src="./imgs/ic_slac.svg" class="img-basic" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </home-comp-wrap>
+    <home-skill-wrap>
+      <section class="home-skill">
+        <div class="container">
+          <div class="home-skill-head">
+            <h2 class="heading h-56 txt-upper home-skill-title">Skill</h2>
+            <div class="home-skill-sub txt txt-18">These are areas in Marketing that I specialize in or have had the
+              most exposure with through experiences</div>
+          </div>
+          <div class="home-skill-main">
+            <div class="home-skill-item">
+              <div class="home-skill-item-numb">[01]</div>
+              <div class="home-skill-item-title heading h-56 txt-upper">digital marketing</div>
+              <div class="home-skill-item-sub txt txt-16 txt-med">Video content & script writing</div>
+              <div class="div-line home-skill-item-line"></div>
+              <div class="div-line home-skill-item-bg"></div>
+            </div>
+            <div class="home-skill-item">
+              <div class="home-skill-item-numb">[02]</div>
+              <div class="home-skill-item-title heading h-56 txt-upper">research</div>
+              <div class="home-skill-item-sub txt txt-16 txt-med">Market research & competitor analysis</div>
+              <div class="div-line home-skill-item-line"></div>
+              <div class="div-line home-skill-item-bg"></div>
+            </div>
+            <div class="home-skill-item">
+              <div class="home-skill-item-numb">[03]</div>
+              <div class="home-skill-item-title heading h-56 txt-upper">analysis</div>
+              <div class="home-skill-item-sub txt txt-16 txt-med">SEO on-page, off-page, technical SEO</div>
+              <div class="div-line home-skill-item-line"></div>
+              <div class="div-line home-skill-item-bg"></div>
+            </div>
+            <div class="home-skill-item">
+              <div class="home-skill-item-numb">[04]</div>
+              <div class="home-skill-item-title heading h-56 txt-upper">graphic design</div>
+              <div class="home-skill-item-sub txt txt-16 txt-med">Branding & positioning</div>
+              <div class="div-line home-skill-item-line"></div>
+              <div class="div-line home-skill-item-bg"></div>
+            </div>
+            <div class="home-skill-item">
+              <div class="home-skill-item-numb">[05]</div>
+              <div class="home-skill-item-title heading h-56 txt-upper">content strategy</div>
+              <div class="home-skill-item-sub txt txt-16 txt-med">Content calendar, Facebook Ads </div>
+              <div class="div-line home-skill-item-line"></div>
+              <div class="div-line home-skill-item-bg"></div>
+            </div>
+            <div class="home-skill-item">
+              <div class="home-skill-item-numb">[06]</div>
+              <div class="home-skill-item-title heading h-56 txt-upper">Social Media</div>
+              <div class="home-skill-item-sub txt txt-16 txt-med">Content calendar, Facebook Ads </div>
+              <div class="div-line home-skill-item-line"></div>
+              <div class="div-line home-skill-item-bg"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </home-skill-wrap>
+    <home-brand-wrap class="web-comp">
+      <section class="home-brand">
+        <div class="container">
+          <div class="home-brand-inner">
+            <div class="home-brand-title-wrap">
+              <div class="heading h-24 home-brand-label txt-upper">Companies</div>
+              <div class="heading h-100 home-brand-title txt-upper">Brands</div>
+              <div class="heading h-24 home-brand-sub txt-upper txt-end">I've worked with</div>
+              <div class="txt txt-18 home-brand-desc">Leaders in tech, food & beverages,
+                financial services industries, marketing
+                agencies, & more!</div>
+            </div>
+            <div class="home-brand-img">
+              <div class="home-brand-ic"><img src="./imgs/arrow2.svg" class="img-basic" alt=""></div>
+              <img src="./imgs/brand.svg" class="img-basic" alt="">
+            </div>
+            <div class="home-brand-sub-wrap">
+              <div class="home-brand-never-label txt txt-18">These are areas in Marketing that I specialize in or have
+                had the
+                most exposure with through experiences</div>
+              <div class="heading h-100 home-brand-never txt-upper">Never</div>
+              <div class="heading h-24 home-brand-never-sub txt-upper ">worked with</div>
+              <div class="heading h-24 home-brand-thanks txt-center txt-upper"><span class="txt txt-16 txt-med"> this
+                  could
+                  be</span> <br>
+                YOU!</div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </home-brand-wrap>
+    <home-project-wrap class="web-comp">
+      <section class="home-project" id="project">
+        <div class="home-project-bg">
+          <img src="./imgs/home-project-bg.jpg" class="img-basic" alt="">
+        </div>
+        <div class="container">
+          <div class="home-project-title heading h-56 txt-upper">RECENT PROJECTS</div>
+          <div class="home-project-cms">
+            <div class="home-project-item grid" data-cursor="on-drag">
+              <div class="home-project-item-left">
+                <div class="txt txt-16 home-project-item-label">[01]</div>
+                <div class="home-project-item-arrow">
+                  <svg width="100%" viewBox="0 0 202 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M198 8L201.5 4.5L198 1M1 4H201V5H1V4Z" stroke="#F9F4E8" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="home-project-item-content">
+                  <div class="heading h-32 home-project-item-title">Pirq (Plant- Based Protein Drink) </div>
+                  <div class="txt txt-16 home-project-item-position">Marketing Researcher</div>
+                  <div class="txt txt-16 home-project-item-sub">Pirq is a plant-based protein shake brand focused on
+                    clean nutrition, convenience, affordability, and promoting a positive, healthy everyday lifestyle.
+                  </div>
+                  <div class="home-project-item-tag">
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">Digital marketing strategy</div>
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">Google Analytics</div>
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">Marketing Researcher</div>
+                  </div>
+                  <div class="home-project-item-img">
+                    <img src="./imgs/project1.jpg" class="img-basic" alt="">
+                  </div>
+                  <div class="home-project-item-cta hover-arr">
+                    <div class="txt txt-14 txt-med txt-upper home-project-item-cta-txt">View detail</div>
+                    <div class="ic-arr-main">
+                      <div class="ic-arr-item ic-12">
+                        <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                          <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="ic-arr-item ic-12">
+                        <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                          <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="home-project-item-img on-dk">
+                <img src="./imgs/project1.jpg" class="img-basic" alt="">
+              </div>
+            </div>
+            <div class="home-project-item grid" data-cursor="on-drag">
+              <div class="home-project-item-left">
+                <div class="txt txt-16 home-project-item-label">[02]</div>
+                <div class="home-project-item-arrow">
+                  <svg width="100%" viewBox="0 0 202 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M198 8L201.5 4.5L198 1M1 4H201V5H1V4Z" stroke="#F9F4E8" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="home-project-item-content">
+                  <div class="heading h-32 home-project-item-title">Aqua Peel </div>
+                  <div class="txt txt-16 home-project-item-position">Marketing Researcher</div>
+                  <div class="txt txt-16 home-project-item-sub">Aqua Peel is a non-invasive facial skincare technology
+                    from South Korea that uses a spiral vacuum suction tip combined with AHA/BHA solutions to deeply
+                    remove dead skin cells, excess sebum, and blackheads.
+                  </div>
+                  <div class="home-project-item-tag">
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">Digital marketing strategy</div>
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">Google Analytics</div>
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">Marketing Researcher</div>
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">content calendar</div>
+                  </div>
+                  <div class="home-project-item-img">
+                    <img src="./imgs/project2.jpg" class="img-basic" alt="">
+                  </div>
+                  <div class="home-project-item-cta hover-arr">
+                    <div class="txt txt-14 txt-med txt-upper home-project-item-cta-txt">View detail</div>
+                    <div class="ic-arr-main">
+                      <div class="ic-arr-item ic-12">
+                        <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                          <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="ic-arr-item ic-12">
+                        <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                          <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="home-project-item-img on-dk">
+                <img src="./imgs/project2.jpg" class="img-basic" alt="">
+              </div>
+            </div>
+            <div class="home-project-item grid" data-cursor="on-drag">
+              <div class="home-project-item-left">
+                <div class="txt txt-16 home-project-item-label">[03]</div>
+                <div class="home-project-item-arrow">
+                  <svg width="100%" viewBox="0 0 202 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M198 8L201.5 4.5L198 1M1 4H201V5H1V4Z" stroke="#F9F4E8" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="home-project-item-content">
+                  <div class="heading h-32 home-project-item-title">Horizon Orgarnic </div>
+                  <div class="txt txt-16 home-project-item-position">Marketing Researcher</div>
+                  <div class="txt txt-16 home-project-item-sub">Horizon is one of the leading dairy brands in
+                    Vietnam,
+                    especially in the cow’s milk segment.The company has a strong foundation in production,
+                    distribution, and brand building, with a nationwide distribution network.
+                    Horizon products are widely available across the market
+                  </div>
+                  <div class="home-project-item-tag">
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">Digital marketing strategy</div>
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">Google Analytics</div>
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">Marketing Researcher</div>
+                    <div class="txt txt-14 txt-upper home-project-item-tag-item">content calendar</div>
+                  </div>
+                  <div class="home-project-item-img">
+                    <img src="./imgs/project3.jpg" class="img-basic" alt="">
+                  </div>
+                  <div class="home-project-item-cta hover-arr">
+                    <div class="txt txt-14 txt-med txt-upper home-project-item-cta-txt">View detail</div>
+                    <div class="ic-arr-main">
+                      <div class="ic-arr-item ic-12">
+                        <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                          <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="ic-arr-item ic-12">
+                        <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                          <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="home-project-item-img on-dk">
+                <img src="./imgs/project3.jpg" class="img-basic" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </home-project-wrap>
+    <home-thumb-wrap class="web-comp">
+      <section class="home-thumb">
+        <div class="home-thumb-inner">
+          <div class="home-thumb-cms" data-marquee="list" data-direction="left">
+            <div class="home-thumb-list" data-marquee="item">
+              <div class="home-thumb-item">
+                <img src="./imgs/cta1.jpg" class="img-h" alt="">
+              </div>
+              <div class="home-thumb-item">
+                <img src="./imgs/cta2.jpg" class="img-h" alt="">
+              </div>
+              <div class="home-thumb-item">
+                <img src="./imgs/cta3.jpg" class="img-h" alt="">
+              </div>
+              <div class="home-thumb-item">
+                <img src="./imgs/cta4.jpg" class="img-h" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="home-thumb-cms" data-marquee="list" data-direction="right">
+            <div class="home-thumb-list" data-marquee="item">
+              <div class="home-thumb-item">
+                <img src="./imgs/cta5.jpg" class="img-h" alt="">
+              </div>
+              <div class="home-thumb-item">
+                <img src="./imgs/cta6.jpg" class="img-h" alt="">
+              </div>
+              <div class="home-thumb-item">
+                <img src="./imgs/cta7.jpg" class="img-h" alt="">
+              </div>
+              <div class="home-thumb-item">
+                <img src="./imgs/cta8.jpg" class="img-h" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </home-thumb-wrap>
+    <home-social-wrap class="web-comp">
+      <section class="home-social">
+        <div class="container">
+          <div class="home-social-head">
+            <h2 class="heading h-56 home-social-title txt-upper">Social Media Marketing </h2>
+            <div class="home-social-sub txt txt-18"> Marketing Areas of Expertise</div>
+          </div>
+          <div class="home-social-cms swiper">
+            <div class="home-social-list swiper-wrapper">
+              <a class="home-social-item swiper-slide">
+                <div class="home-social-item-img">
+                  <img src="./imgs/social-ecomobi.webp" class="img-basic" alt="">
+                </div>
+                <div class="home-social-item-content">
+                  <div class="home-social-item-logo-wrap">
+                    <div class="home-social-item-logo">
+                      <img src="./imgs/ecombi.webp" class="img-basic" alt="">
+                    </div>
+                    <div class="home-social-item-number txt txt-14 txt-upper">001</div>
+                  </div>
+                  <div class="home-social-item-title-wrap">
+                    <div class="txt txt-20 txt-med home-social-item-title">UGC Content Creator for Ecomobi</div>
+                    <div class="txt txt-16 home-social-item-sub">Collaborated with Ecomobi to create UGC and
+                      creator-led content showcasing their affiliate marketing platform. Contributed to growing the
+                      brand’s social media presence to 8,000+ followers while increasing engagement, brand awareness,
+                      and website traffic</div>
+                    <div href="#" class="home-social-item-cta hover-arr">
+                      <div class="txt txt-14 txt-med txt-upper home-project-item-cta-txt">View detail</div>
+                      <div class="ic-arr-main">
+                        <div class="ic-arr-item ic-12">
+                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="ic-arr-item ic-12">
+                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a class="home-social-item swiper-slide">
+                <div class="home-social-item-img">
+                  <img src="./imgs/social-umevo.webp" class="img-basic" alt="">
+                </div>
+                <div class="home-social-item-content">
+                  <div class="home-social-item-logo-wrap">
+                    <div class="home-social-item-logo">
+                      <img src="./imgs/social-logo2.svg" class="img-basic" alt="">
+                    </div>
+                    <div class="home-social-item-number txt txt-14 txt-upper">002</div>
+                  </div>
+                  <div class="home-social-item-title-wrap">
+                    <div class="txt txt-20 txt-med home-social-item-title">Social Media Strategy for UMEVO AI</div>
+                    <div class="txt txt-16 home-social-item-sub">UMEVO.ai is an AI-powered platform designed for smart
+                      meeting recording and note-taking. It automatically records meetings, converts speech into text
+                      (transcription), and generates notes, allowing users to capture important information without
+                      manually taking notes.</div>
+                    <div class="home-social-item-cta hover-arr">
+                      <div class="txt txt-14 txt-med txt-upper home-project-item-cta-txt">View detail</div>
+                      <div class="ic-arr-main">
+                        <div class="ic-arr-item ic-12">
+                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="ic-arr-item ic-12">
+                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a class="home-social-item swiper-slide">
+                <div class="home-social-item-img">
+                  <img src="./imgs/social.webp" class="img-basic" alt="">
+                </div>
+                <div class="home-social-item-content">
+                  <div class="home-social-item-logo-wrap">
+                    <div class="home-social-item-logo">
+                      <img src="./imgs/social-logo1.svg" class="img-basic" alt="">
+                    </div>
+                    <div class="home-social-item-number txt txt-14 txt-upper">003</div>
+                  </div>
+                  <div class="home-social-item-title-wrap">
+                    <div class="txt txt-20 txt-med home-social-item-title">UGC Content Creator for Arrowster</div>
+                    <div class="txt txt-16 home-social-item-sub">Collaborated with Arrowster to produce UGC and
+                      creator-led content promoting their AI-powered study abroad platform. Helped grow the social
+                      media page to 8,000+ followers while driving awareness and traffic to the website.</div>
+                    <div class="home-social-item-cta hover-arr">
+                      <div class="txt txt-14 txt-med txt-upper home-project-item-cta-txt">View detail</div>
+                      <div class="ic-arr-main">
+                        <div class="ic-arr-item ic-12">
+                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <div class="ic-arr-item ic-12">
+                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="div-line line-pagi home-social-line">
+            <div class="div-line home-social-line-inner line-pagi-inner"></div>
+          </div>
+          <div class="home-social-job-wrap">
+            <div class="home-social-job">
+              <div class="home-social-job-list">
+                <div class="home-social-job-item">
+                  <div class="home-social-job-item-img">
+                    <img src="./imgs/social.webp" class="img-basic" alt="">
+                  </div>
+                  <div class="home-social-job-item-title txt txt-20 txt-med">UMEVO AI</div>
+                </div>
+                <div class="home-social-job-item">
+                  <div class="home-social-job-item-img">
+                    <img src="./imgs/social2.webp" class="img-basic" alt="">
+                  </div>
+                  <div class="home-social-job-item-title txt txt-20 txt-med"> UGC Content Creator for Arrowster</div>
+                </div>
+                <div class="home-social-job-item">
+                  <div class="home-social-job-item-img">
+                    <img src="./imgs/social-ecomobi.webp" class="img-basic" alt="">
+                  </div>
+                  <div class="home-social-job-item-title txt txt-20 txt-med">Social Media Strategy for Ecomobi</div>
+                </div>
+                <div class="home-social-job-item">
+                  <div class="home-social-job-item-img">
+                    <img src="./imgs/social4.webp" class="img-basic" alt="">
+                  </div>
+                  <div class="home-social-job-item-title txt txt-20 txt-med">Social Media Marketing Strategy for UMEVQ
+                    AI</div>
+                </div>
+              </div>
+            </div>
+            <div class="home-social-job-view">
+              <div class="home-social-job-view-ic">
+                <img src="./imgs/arrow.svg" class="img-basic" alt="">
+              </div>
+              <div class="home-social-job-view-content">
+                <div class="home-social-job-view-title heading h-90 ">203k</div>
+                <div class="home-social-job-view-sub heading h-24">Views</div>
+              </div>
+            </div>
+            <div class="div-line home-social-job-line line-pagi">
+              <div class="div-line home-social-job-line-inner line-pagi-inner"></div>
+            </div>
+          </div>
+          <div class="home-social-img">
+            <img src="./imgs/data.jpg" class="img-basic" alt="">
+          </div>
+          <div class="home-social-desc txt txt-20 txt-med">Driving Revenue for UMEVO AI</div>
+        </div>
+      </section>
+    </home-social-wrap>
+    <home-img-wrap class="web-comp">
+      <section class="home-img">
+        <div class="home-img-inner">
+          <img src="./imgs/thumb.jpg" loading="lazy" class="img-basic" alt="">
+        </div>
+      </section>
+    </home-img-wrap>
+    <home-micro-wrap class="web-comp">
+      <section class="home-micro">
+        <div class="container">
+          <div class="home-micro-inner">
+            <div class="home-micro-head">
+              <div class="home-micro-title-wrap">
+                <h2 class="home-micro-title heading h-56 txt-upper">MICRO INFLUENCER</h2>
+                <div class="home-micro-social">
+                  <a href="https://www.tiktok.com/@dylann.pth" class="home-micro-social-item hover-arr" data-cursor="bg"
+                    data-bg="primary">
+                    <div class="home-micro-social-item-txt txt txt-16 txt-med txt-upper lh-1">Tiktok</div>
+                    <div class="ic-arr-main">
+                      <div class="ic-arr-item ic-14">
+                        <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                          <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="ic-arr-item ic-14">
+                        <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                          <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                  <a href="#" class="home-micro-social-item hover-arr" data-cursor="bg" data-bg="primary">
+                    <div class="home-micro-social-item-txt txt txt-16 txt-med txt-upper lh-1">Instagram</div>
+                    <div class="ic-arr-main">
+                      <div class="ic-arr-item ic-14">
+                        <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                          <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="ic-arr-item ic-14">
+                        <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                          <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="home-micro-img">
+                <img src="./imgs/img-tiktok.jpg" class="img-basic" alt="">
+              </div>
+            </div>
+            <div class="home-micro-cms">
+              <div class="home-micro-list">
+                <div class="home-micro-item">
+                  <div class="home-micro-item-content">
+                    <div class="home-micro-item-label-wrap">
+                      <div class="home-micro-item-ic">
+                        <svg width="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M12 58.6663V45.333M12 18.6663V5.33301M5.33334 11.9997H18.6667M5.33334 51.9997H18.6667M34.6667 7.99967L30.0422 20.0233C29.2902 21.9786 28.9142 22.9562 28.3294 23.7786C27.8112 24.5074 27.1744 25.1442 26.4456 25.6624C25.6232 26.2472 24.6456 26.6232 22.6903 27.3752L10.6667 31.9997L22.6903 36.6241C24.6456 37.3762 25.6232 37.7522 26.4456 38.3369C27.1744 38.8552 27.8112 39.4919 28.3294 40.2208C28.9142 41.0431 29.2902 42.0208 30.0422 43.976L34.6667 55.9997L39.2912 43.976C40.0432 42.0208 40.4192 41.0431 41.0039 40.2208C41.5222 39.4919 42.159 38.8552 42.8878 38.3369C43.7101 37.7522 44.6878 37.3762 46.643 36.6241L58.6667 31.9997L46.643 27.3752C44.6878 26.6232 43.7101 26.2472 42.8878 25.6624C42.1589 25.1442 41.5222 24.5074 41.0039 23.7786C40.4192 22.9562 40.0432 21.9786 39.2911 20.0233L34.6667 7.99967Z"
+                            stroke="#FF3B0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="home-micro-item-label txt txt-14 txt-upper">001</div>
+                    </div>
+                    <div class="home-micro-item-sub txt txt-16">As a micro creator, I document my journey as an
+                      international student, sharing insights from my academic experience and personal growth. I
+                      create lifestyle, travel, and day-in-the-life content that reflects my real experiences abroad.
+                      My content connects deeply with international students and Gen Z audiences who see their own
+                      journeys reflected in my story.</div>
+                  </div>
+                  <div class="home-micro-item-img">
+                    <div class="home-micro-item-img-inner">
+                      <img src="./imgs/social-ecomobi.webp" class="img-basic" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="home-micro-item item-revert">
+                  <div class="home-micro-item-content">
+                    <div class="home-micro-item-label-wrap">
+                      <div class="home-micro-item-ic">
+                        <svg width="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M48 42.2317C51.8824 44.182 55.211 47.3119 57.6406 51.2257C58.1218 52.0007 58.3623 52.3882 58.4455 52.9249C58.6145 54.0154 57.8688 55.3561 56.8532 55.7876C56.3534 56 55.7911 56 54.6667 56M42.6667 30.7526C46.6179 28.789 49.3333 24.7116 49.3333 20C49.3333 15.2884 46.6179 11.211 42.6667 9.24736M37.3333 20C37.3333 26.6274 31.9607 32 25.3333 32C18.7059 32 13.3333 26.6274 13.3333 20C13.3333 13.3726 18.7059 8 25.3333 8C31.9607 8 37.3333 13.3726 37.3333 20ZM6.82461 50.5022C11.0761 44.1188 17.785 40 25.3333 40C32.8817 40 39.5906 44.1188 43.842 50.5022C44.7734 51.9007 45.2391 52.5999 45.1855 53.4931C45.1438 54.1886 44.6879 55.04 44.1322 55.4602C43.4185 56 42.4369 56 40.4737 56H10.1929C8.22978 56 7.2482 56 6.5345 55.4602C5.97879 55.04 5.52289 54.1886 5.48115 53.4931C5.42753 52.5999 5.89323 51.9007 6.82461 50.5022Z"
+                            stroke="#FF3B0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="home-micro-item-label txt txt-14 txt-upper">002</div>
+                    </div>
+                    <div class="home-micro-item-sub txt txt-16">I collaborate with startups and brands to create
+                      authentic, engaging content that showcases their products in a natural and relatable way. My
+                      goal is to tell genuine stories that resonate with my audience while highlighting each brand’s
+                      unique value. Through creative visuals and thoughtful storytelling, I help brands build trust,
+                      increase visibility, and connect with potential customers.</div>
+                  </div>
+                  <div class="home-micro-item-img">
+                    <div class="home-micro-item-img-inner">
+                      <img src="./imgs/social-umevo.webp" class="img-basic" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="home-micro-item">
+                  <div class="home-micro-item-content">
+                    <div class="home-micro-item-label-wrap">
+                      <div class="home-micro-item-ic">
+                        <svg width="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M32 5.33301V7.99967M8.00001 31.9997H5.33334M14.6667 14.6663L13.0664 13.0661M49.3333 14.6663L50.934 13.0661M58.6667 31.9997H56M26.6667 35.9997H37.3333M32 35.9997V49.333M41.3333 44.9969C45.3709 42.0924 48 37.3531 48 31.9997C48 23.1631 40.8366 15.9997 32 15.9997C23.1635 15.9997 16 23.1631 16 31.9997C16 37.3531 18.6292 42.0924 22.6667 44.9969V50.133C22.6667 53.12 22.6667 54.6134 23.248 55.7543C23.7593 56.7578 24.5752 57.5737 25.5787 58.085C26.7196 58.6663 28.2131 58.6663 31.2 58.6663H32.8C35.787 58.6663 37.2804 58.6663 38.4213 58.085C39.4248 57.5737 40.2407 56.7578 40.752 55.7543C41.3333 54.6134 41.3333 53.12 41.3333 50.133V44.9969Z"
+                            stroke="#FF3B0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="home-micro-item-label txt txt-14 txt-upper">003</div>
+                    </div>
+                    <div class="home-micro-item-sub txt txt-16">I explore neuroscience and personal development and
+                      transform these concepts into accessible, relatable content that helps my audience better
+                      understand their mindset, behavior, and growth.</div>
+                  </div>
+                  <div class="home-micro-item-img">
+                    <div class="home-micro-item-img-inner">
+                      <img src="./imgs/micro1.webp" class="img-basic" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="home-micro-item item-revert">
+                  <div class="home-micro-item-content">
+                    <div class="home-micro-item-label-wrap">
+                      <div class="home-micro-item-ic">
+                        <svg width="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M56 56H12.2667C10.7732 56 10.0265 56 9.45603 55.7094C8.95426 55.4537 8.54631 55.0457 8.29065 54.544C8 53.9735 8 53.2268 8 51.7333V8M56 18.6667L41.5085 33.1582C40.9805 33.6862 40.7165 33.9502 40.412 34.0491C40.1442 34.1361 39.8558 34.1361 39.588 34.0491C39.2835 33.9502 39.0195 33.6862 38.4915 33.1582L33.5085 28.1752C32.9805 27.6471 32.7165 27.3831 32.412 27.2842C32.1442 27.1972 31.8558 27.1972 31.588 27.2842C31.2835 27.3831 31.0195 27.6471 30.4915 28.1752L18.6667 40M56 18.6667H45.3333M56 18.6667V29.3333"
+                            stroke="#FF3B0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </div>
+                      <div class="home-micro-item-label txt txt-14 txt-upper">004</div>
+                    </div>
+                    <div class="home-micro-item-sub txt txt-16">Additionally, I apply A/B testing to experiment with
+                      different content formats and messaging styles to understand what resonates best with the
+                      audience. I refine content strategies based on these insights and use analytics tools to track
+                      performance, evaluate effectiveness, and continuously improve engagement and results.</div>
+                  </div>
+                  <div class="home-micro-item-img">
+                    <div class="home-micro-item-img-inner">
+                      <img src="./imgs/micro2.webp" class="img-basic" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </home-micro-wrap>
+    <home-profile-wrap class="web-comp">
+      <div class="home-profile-wrap">
+        <div class="home-profile-thumb">
+          <div class="home-profile-thumb-inner">
+            <div class="home-profile-thumb-item item1">
+              <img src="./imgs/thumb1.jpg" class="img-basic" alt="">
+            </div>
+            <div class="home-profile-thumb-item item2">
+              <img src="./imgs/thumb2.jpg" class="img-basic" alt="">
+            </div>
+            <div class="home-profile-thumb-item item3">
+              <img src="./imgs/thumb3.jpg" class="img-basic" alt="">
+            </div>
+            <div class="home-profile-thumb-item item4">
+              <img src="./imgs/thumb4.jpg" class="img-basic" alt="">
+            </div>
+            <div class="home-profile-thumb-item item5">
+              <img src="./imgs/thumb5.jpg" class="img-basic" alt="">
+            </div>
+            <div class="home-profile-thumb-item item6">
+              <img src="./imgs/thumb6.jpg" class="img-basic" alt="">
+            </div>
+            <div class="home-profile-thumb-item item7">
+              <img src="./imgs/thumb8.jpg" class="img-basic" alt="">
+            </div>
+            <div class="home-profile-thumb-item item8">
+              <img src="./imgs/thumb7.jpg" class="img-basic" alt="">
+            </div>
+          </div>
+        </div>
+        <section class="home-profile">
+          <div class="home-profile-bg">
+            <img src="./imgs/home-profile.jpg" class="img-basic img-fill" alt="">
+          </div>
+          <div class="container">
+            <div class="home-profile-social-wrap">
+              <a href="mailto:dylanphan0469@gmail.com" class="home-profile-social txt txt-14 txt-med txt-upper hover-un"
+                data-cursor="txtLink">dylanphan0469@gmail.com</a>
+              <a href="#" class="home-profile-social txt txt-14 txt-med txt-upper hover-un" data-cursor="txtLink">Boise,
+                Idaho</a>
+              <a href="tel:+12135558573" class="home-profile-social txt txt-14 txt-med txt-upper hover-un"
+                data-cursor="txtLink">+1 (208)
+                617-4062
+              </a>
+            </div>
+            <div class="home-profile-title-wrap">
+              <div class="home-profile-label txt txt-16 txt-med txt-upper">[Social Media Marketing]</div>
+              <h2 class="home-profile-title heading h-56">UGC Content Creator for Arrowster</h2>
+            </div>
+          </div>
+        </section>
+      </div>
+    </home-profile-wrap>
+    <home-certi-wrap class="web-comp">
+      <section class="home-certi">
+        <div class="container">
+          <h2 class="home-certi-title heading h-56 txt-upper">Certificate</h2>
+          <div class="home-certi-main">
+            <div class="home-certi-img-wrap">
+              <div class="home-certi-img active">
+                <img src="./imgs/certi.jpg" class="img-basic" alt="">
+              </div>
+              <div class="home-certi-img">
+                <img src="./imgs/social.jpg" class="img-basic" alt="">
+              </div>
+              <div class="home-certi-img">
+                <img src="./imgs/digital.png" class="img-basic" alt="">
+              </div>
+            </div>
+            <div class="home-certi-cms">
+              <div class="home-certi-list">
+                <div class="home-certi-item">
+                  <div class="div-line home-certi-item-line">
+                    <div class="div-line home-certi-item-inner"></div>
+                  </div>
+                  <div class="home-certi-item-content">
+                    <div class="home-certi-item-num txt txt-20 txt-upper">001</div>
+                    <div class="home-certi-item-title heading h-32 txt-upper">Marketing Analytics Foundations</div>
+                    <div class="home-certi-item-year txt txt-20 txt-upper">2026</div>
+                  </div>
+                  <div class="home-certi-item-img">
+                    <img src="./imgs/certi.jpg" class="img-basic" alt="">
+                  </div>
+                </div>
+                <div class="home-certi-item">
+                  <div class="div-line home-certi-item-line">
+                    <div class="div-line home-certi-item-inner"></div>
+                  </div>
+                  <div class="home-certi-item-content">
+                    <div class="home-certi-item-num txt txt-20 txt-upper">002</div>
+                    <div class="home-certi-item-title heading h-32 txt-upper">Social media manager</div>
+                    <div class="home-certi-item-year txt txt-20 txt-upper">2024</div>
+                  </div>
+                  <div class="home-certi-item-img">
+                    <img src="./imgs/social.jpg" class="img-basic" alt="">
+                  </div>
+                </div>
+                <div class="home-certi-item">
+                  <div class="div-line home-certi-item-line">
+                    <div class="div-line home-certi-item-inner"></div>
+                  </div>
+                  <div class="home-certi-item-content">
+                    <div class="home-certi-item-num txt txt-20 txt-upper">003</div>
+                    <div class="home-certi-item-title heading h-32 txt-upper">digital Marketing</div>
+                    <div class="home-certi-item-year txt txt-20 txt-upper">2025</div>
+                  </div>
+                  <div class="home-certi-item-img">
+                    <img src="./imgs/digital.png" class="img-basic" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </home-certi-wrap>
+  </main>
+  <footer-wrap class="web-comp">
+    <footer class="footer">
+      <div class="footer-bg">
+        <img src="./imgs/footer-bg.jpg" class="img-basic" alt="">
+      </div>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-head">
+            <div class="footer-name txt txt-20 txt-med txt-upper">Dylanphan</div>
+            <div class="footer-contact">
+              <div class="footer-contact-item">
+                <div class="footer-contact-item-label txt txt-14 txt-upper">Email</div>
+                <a href="mailTo:dylanphan0469@gmail.com" data-cursor="txtLink"
+                  class="footer-contact-item-title txt txt-18 txt-med txt-upper hover-un">dylanphan0469@gmail.com</a>
+              </div>
+              <div class="footer-contact-item">
+                <div class="footer-contact-item-label txt txt-14 txt-upper">Address</div>
+                <a class="footer-contact-item-title txt txt-18 txt-med txt-upper hover-un" data-cursor="txtLink">Boise,
+                  Idaho</a>
+              </div>
+              <div class="footer-contact-item">
+                <div class="footer-contact-item-label txt txt-14 txt-upper">Phone</div>
+                <a href="tel:+12135558573" data-cursor="txtLink"
+                  class="footer-contact-item-title txt txt-18 txt-med txt-upper hover-un">+1
+                  (208) 617-4062 </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-marquee-cms" data-marquee="list">
+            <div class="footer-marquee-list" data-marquee="item">
+              <div class="footer-marquee-item heading h-160 txt-upper">get in touch_ get in touch_ get in touch_</div>
+            </div>
+          </div>
+          <div class="footer-social">
+            <a href="#" class="footer-social-item hover-arr" data-cursor="bg" data-bg="primary">
+              <div class="txt txt-14 txt-upper home-hero-social-item-txt">linkedin</div>
+              <div class="ic-arr-main">
+                <div class="ic-arr-item ic-14">
+                  <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                    <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="ic-arr-item ic-14">
+                  <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                    <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="footer-social-item hover-arr" data-cursor="bg" data-bg="primary">
+              <div class="txt txt-14 txt-upper home-hero-social-item-txt">Instagram </div>
+              <div class="ic-arr-main">
+                <div class="ic-arr-item ic-14">
+                  <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                    <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="ic-arr-item ic-14">
+                  <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                    <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="footer-social-item hover-arr" data-cursor="bg" data-bg="primary">
+              <div class="txt txt-14 txt-upper home-hero-social-item-txt">Twitter</div>
+              <div class="ic-arr-main">
+                <div class="ic-arr-item ic-14">
+                  <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                    <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <div class="ic-arr-item ic-14">
+                  <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2" />
+                    <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
                 </div>
               </div>
             </a>
           </div>
         </div>
+        <div class="footer-copy">
+          <div class="footer-copy-txt txt txt-14 txt-upper">Copyright © <span class="current-year">2026</span></div>
+          <div class="footer-menu">
+            <a href="#about" data-cursor="txtLink" class="footer-menu-item hover-un txt txt-14 txt-upper txt-med">About
+              Me</a>
+            <a href="#exper" data-cursor="txtLink"
+              class="footer-menu-item hover-un txt txt-14 txt-upper txt-med">Experience</a>
+            <a href="#project" data-cursor="txtLink"
+              class="footer-menu-item hover-un txt txt-14 txt-upper txt-med">Projects</a>
+            <a href="mailto:dylanphan0469@gmail.com" data-cursor="txtLink"
+              class="footer-menu-item hover-un txt txt-14 txt-upper txt-med">Contact</a>
+          </div>
+        </div>
       </div>
-    </header>
-    <div class="cursor">
-      <div class="cursor-main">
-        <div class="cursor-inner">
-          <div class="cursor-view">View</div>
-        </div>
-      </div>
-    </div>
-    <main>
-      <popup-wrap class="web-comp">
-        <div class="popup">
-          <div class="popup-inner">
-            <div class="popup-main">
-              <div class="popup-close txt txt-16">Close</div>
-              <div class="popup-item">
-                <div class="popup-item-title heading h-32">Pirq (Plant- Based Protein Drink)</div>
-                <div class="popup-item-info">
-                  <div class="popup-item-info-item">
-                    <div class="popup-item-info-label txt txt-16">Company</div>
-                    <div class="popup-item-info-title txt txt-16 txt-med">Pirq (Plant- Based Protein Drink) </div>
-                  </div>
-                  <div class="popup-item-info-item">
-                    <div class="popup-item-info-label txt txt-16">Position</div>
-                    <div class="popup-item-info-title txt txt-16 txt-med">Marketing Researcher</div>
-                  </div>
-                  <a class="popup-item-info-link txt txt-16">
-                    <div class="popup-item-info-link-ic ic-16">
-                      <svg width="100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_216_1346)">
-                        <path d="M8 0C6.41775 0 4.87103 0.469192 3.55544 1.34824C2.23985 2.22729 1.21447 3.47672 0.608967 4.93853C0.00346625 6.40034 -0.15496 8.00887 0.153721 9.56072C0.462403 11.1126 1.22433 12.538 2.34315 13.6569C3.46197 14.7757 4.88743 15.5376 6.43928 15.8463C7.99113 16.155 9.59966 15.9965 11.0615 15.391C12.5233 14.7855 13.7727 13.7602 14.6518 12.4446C15.5308 11.129 16 9.58225 16 8C15.9937 5.88022 15.1488 3.84906 13.6499 2.35014C12.1509 0.851219 10.1198 0.00633091 8 0ZM10.924 6.765L8.424 10.765C8.37906 10.8369 8.31656 10.8962 8.24239 10.9373C8.16822 10.9784 8.08481 11 8 11C7.9152 11 7.83179 10.9784 7.75762 10.9373C7.68345 10.8962 7.62095 10.8369 7.576 10.765L5.076 6.765C5.0287 6.68931 5.00252 6.60235 5.00017 6.51312C4.99783 6.4239 5.01941 6.33568 5.06268 6.25762C5.10595 6.17955 5.16932 6.11449 5.24622 6.06919C5.32313 6.02389 5.41075 6 5.5 6H10.5C10.5893 6 10.6769 6.02389 10.7538 6.06919C10.8307 6.11449 10.8941 6.17955 10.9373 6.25762C10.9806 6.33568 11.0022 6.4239 10.9998 6.51312C10.9975 6.60235 10.9713 6.68931 10.924 6.765Z" fill="white"/>
-                        </g>
-                        <defs>
-                        <clipPath id="clip0_216_1346">
-                        <rect width="16" height="16" fill="white"/>
-                        </clipPath>
-                        </defs>
-                      </svg>                          
-                    </div>
-                    <div>Download file</div>
-                  </a>
-                </div>
-                <div class="popup-item-sub heading h-24 txt-upper">What is cml?</div>
-                <div class="popup-item-desc txt txt-16">
-                  <p>Established in 2007, Canadian Marketing League is Canada's LARGEST Marketing Case Competition, mirroring the NHL/NBA intensity.</p>
-                  <p>The competition calls for Marketing talents across 30+ Universities across the nation to compete in a three-phased competition for a $20,000 grand prize annually.</p>
-                </div>
-                <div class="popup-item-carrer">
-                  <div class="popup-item-carrer-item">
-                    <div class="heading h-40 popup-item-carrer-title">120+</div>
-                    <div class="txt txt-14 popup-item-carrer-label txt-upper">Careers Started</div>
-                  </div>
-                  <div class="popup-item-carrer-item">
-                    <div class="heading h-40 popup-item-carrer-title">570K+</div>
-                    <div class="txt txt-14 popup-item-carrer-label txt-upper">in Prizes Awarded</div>
-                  </div>
-                  <div class="popup-item-carrer-item">
-                    <div class="heading h-40 popup-item-carrer-title">20+</div>
-                    <div class="txt txt-14 popup-item-carrer-label txt-upper">Academic Partners</div>
-                  </div>
-                </div>
-                <div class="popup-item-img">
-                  <img src="./imgs/popup-img.jpg" class="img-basic" alt="">
-                </div>
-                <div class="popup-item-partner">
-                  <div class="txt txt-upper txt-14 txt-med popup-item-partner-title">OUR SEASON'S PARTNERS</div>
-                  <div class="popup-item-partner-logo">
-                    <div class="popup-item-partner-logo-item">
-                      <img src="./imgs/partner-logo1.png" class="img-basic" alt="">
-                    </div>
-                    <div class="popup-item-partner-logo-item">
-                      <img src="./imgs/partner-logo2.png" class="img-basic" alt="">
-                    </div>
-                    <div class="popup-item-partner-logo-item">
-                      <img src="./imgs/partner-logo3.png" class="img-basic" alt="">
-                    </div>
-                    <div class="popup-item-partner-logo-item">
-                      <img src="./imgs/partner-logo4.png" class="img-basic" alt="">
-                    </div>
-                    <div class="popup-item-partner-logo-item">
-                      <img src="./imgs/partner-logo5.png" class="img-basic" alt="">
-                    </div>
-                    <div class="popup-item-partner-logo-item">
-                      <img src="./imgs/partner-logo6.png" class="img-basic" alt="">
-                    </div>
-                  </div>
-                </div>
-                <div class="popup-item-role">
-                  <div class="popup-item-role-title heading h-24 txt-upper">WHAT IS MY ROLE?</div>
-                  <div class="popup-item-role-sub txt txt-18">
-                    <p>As the Lead Marketing Strategist, I led a Marketing Team of 4 alongside an executive team of 13 to develop and spearhead the Content Calendar to raise brand awareness for the competition
-                      across various channels (Instagram, LinkedIn, TikTok, Campus Visits, etc).</p>
-                    <p>
-                      Being in charge of a budget of $100,000, I've developed various social media marketing campaigns to not only amplify the reach of the program nationally but also ensure a solid conversion rate to break previous year's record of Applicant Registrations.
-                    </p>
-                  </div>
-                  <div class="popup-item-role-desc txt  txt-14 txt-med">I GOT MY HANDS ON..</div>
-                  <div class="popup-item-role-list">
-                    <div class="popup-item-role-item">
-                      <div class="popup-item-role-item-numb txt txt-20">01</div>
-                      <div class="popup-item-role-item-title heading h-24">PROJECT MANAGEMENT</div>
-                    </div>
-                    <div class="popup-item-role-item">
-                      <div class="popup-item-role-item-numb txt txt-20">02</div>
-                      <div class="popup-item-role-item-title heading h-24">Data-driven Strategy</div>
-                    </div>
-                    <div class="popup-item-role-item">
-                      <div class="popup-item-role-item-numb txt txt-20">03</div>
-                      <div class="popup-item-role-item-title heading h-24">Brand Marketing</div>
-                    </div>
-                    <div class="popup-item-role-item">
-                      <div class="popup-item-role-item-numb txt txt-20">04</div>
-                      <div class="popup-item-role-item-title heading h-24">Digital Marketing</div>
-                    </div>
-                    <div class="popup-item-role-item">
-                      <div class="popup-item-role-item-numb txt txt-20">05</div>
-                      <div class="popup-item-role-item-title heading h-24">Content Creation</div>
-                    </div>
-                    <div class="popup-item-role-item">
-                      <div class="popup-item-role-item-numb txt txt-20">06</div>
-                      <div class="popup-item-role-item-title heading h-24">Sales & Pitching</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="popup-item-detail">
-                  <div class="popup-item-detail-title heading h-24 txt-upper">Details</div>
-                  <div class="popup-item-detail-sub txt-14 txt txt-med txt-upper">CAMPAIGN spotlight #1: SPOTIFY WRAPPED</div>
-                  <div class="popup-item-detail-cms">
-                    <div class="popup-item-detail-list">
-                      <div class="popup-item-detail-item">
-                        <div class="popup-item-detail-item-img">
-                          <img src="imgs/popup-detail1.jpg" class="img-basic" alt="">
-                        </div>
-                      </div>
-                      <div class="popup-item-detail-item">
-                        <div class="popup-item-detail-item-img">
-                          <img src="imgs/popup-detail2.jpg" class="img-basic" alt="">
-                        </div>
-                      </div>
-                      
-                    </div>
-                  </div>
-                  <div class="popup-item-detail-progress">
-                    <div class="popup-item-detail-progress-inner"></div>
-                  </div>
-                </div>
-                <div class="popup-item-result">
-                  <div class="popup-item-result-title heading h-24">Results</div>
-                  <div class="popup-item-result-cms">
-                    <div class="popup-item-result-list">
-                      <div class="popup-item-result-item">
-                        <div class="popup-item-result-img">
-                          <img src="imgs/popup-result1.jpg" class="img-basic" alt="">
-                        </div>
-                      </div>
-                      <div class="popup-item-result-item">
-                        <div class="popup-item-result-img">
-                          <img src="imgs/popup-result2.jpg" class="img-basic" alt="">
-                        </div>
-                      </div>
-                      <div class="popup-item-result-item">
-                        <div class="popup-item-result-img">
-                          <img src="imgs/popup-result3.jpg" class="img-basic" alt="">
-                        </div>
-                      </div>
-                      <div class="popup-item-result-item">
-                        <div class="popup-item-result-img">
-                          <img src="imgs/popup-result4.jpg" class="img-basic" alt="">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Selection</div>
-                  <div class="popup-item-result-desc txt txt-18 ">
-                    <p>Content being chosen by National Brand Team as Ads to implement in the 2024 Fall Recruitment Campaign, on a national scale!</p>
-                    <p>Being in charge of a budget of $100,000, I’ve developed various social media marketing campaigns to not only amplify the reach of the program nationally but also ensure a solid conversion rate to break previous year’s record of Applicant Registrations.</p>
-                  </div>
-                  <div class="popup-item-result-info">
-                    <div class="popup-item-result-info-item">
-                      <div class="popup-item-result-info-number heading h-40">39%</div>
-                      <div class="popup-item-result-info-label txt txt-14">SUBMISSIONS</div>
-                    </div>
-                    <div class="popup-item-result-info-item">
-                      <div class="popup-item-result-info-number heading h-40">>1.5M</div>
-                      <div class="popup-item-result-info-label txt txt-14">IMPRESSIONS</div>
-                    </div>
-                    <div class="popup-item-result-info-item">
-                      <div class="popup-item-result-info-number heading h-40">8600</div>
-                      <div class="popup-item-result-info-label txt txt-14">total followers</div>
-                    </div>
-                  </div>
-                  <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Performance</div>
-                  <div class="popup-item-result-desc txt txt-18 ">
-                    <p>As the Lead Marketing Strategist, I led a Marketing Team of 4 alongside an executive team of 13 to develop and spearhead the Content Calendar to raise brand awareness for the competition
-                      across various channels (Instagram, LinkedIn, TikTok, Campus Visits, etc).</p>
-                  </div>
-                  <div class="popup-item-result-sub txt txt-14 txt-med txt-upper">Impact</div>
-                  <div class="popup-item-result-desc txt txt-18 ">
-                    <p>Reached 50K+ prospects nationwide and contributed to 4K+ applications in GTA region.</p>
-                  </div>
-                </div>
-              </div>
-            </div> 
-          </div>
-        </div>
-      </popup-wrap>
-      <home-hero-wrap class="web-comp">
-        <section class="home-hero">
-          <div class="container grid">
-            <div class="home-hero-left">
-              <div class="home-hero-title-wrap">
-                <div class="home-hero-label txt txt-14 txt-upper">Marketing Portfolio by Dylan Phan</div>
-                <h1 class="heading h-40 home-hero-title ">
-                  Hello! I'm Dylanphannnn a digital marketing from VietNam.
-                </h1>
-              </div>
-              <div class="home-hero-social">
-                <a href="#" class="home-hero-social-item hover-arr">
-                  <div class="txt txt-14 txt-upper home-hero-social-item-txt">linkedin</div>
-                  <div class="ic-arr-main">
-                    <div class="ic-arr-item ic-14">
-                      <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                        <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>                
-                    </div>
-                    <div class="ic-arr-item ic-14">
-                      <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                        <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>                
-                    </div>
-                  </div>
-                </a>
-                <a href="#" class="home-hero-social-item hover-arr">
-                  <div class="txt txt-14 txt-upper home-hero-social-item-txt">Instagram </div>
-                  <div class="ic-arr-main">
-                    <div class="ic-arr-item ic-14">
-                      <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                        <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>                
-                    </div>
-                    <div class="ic-arr-item ic-14">
-                      <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                        <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>                
-                    </div>
-                  </div>
-                </a>
-                <a href="#" class="home-hero-social-item hover-arr">
-                  <div class="txt txt-14 txt-upper home-hero-social-item-txt">Twitter</div>
-                  <div class="ic-arr-main">
-                    <div class="ic-arr-item ic-14">
-                      <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                        <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>                
-                    </div>
-                    <div class="ic-arr-item ic-14">
-                      <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                        <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>                
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="home-hero-center">
-              <div class="home-hero-avt">
-                <img src="./imgs/home-hero.webp" class="img-basic" alt="">
-              </div>
-            </div>
-            <div class="home-hero-right">
-              <a href="#" class="home-hero-cta">
-                <div class="ic-arr-main">
-                  <div class="ic-arr-item ic-13">
-                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                
-                  </div>
-                  <div class="ic-arr-item ic-13">
-                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                
-                  </div>
-                </div>
-                <div class="txt txt-16 txt-med txt-upper home-hero-cta-txt">Contact Me</div>
-              </a>
-              <div class="home-hero-job">
-                <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">Digital Marketing</div>
-                <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">content strategy</div>
-                <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">Marketer</div>
-                <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">Content Creation</div>
-                <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">Brand Marketing</div>
-                <div class="home-hero-job-item txt txt-14 lh-1 txt-upper">Social Media</div>
-              </div>
-            </div>
-          </div>
-          <div class="home-hero-digi">
-            <div class="home-hero-digi-list">
-              <div class="home-hero-digi-item heading h-120 txt-upper">digital Marketing_</div>
-              <div class="home-hero-digi-item heading h-120 txt-upper">digital Marketing_</div>
-            </div>
-          </div>
-        </section>
-      </home-hero-wrap>
-      <home-about-wrap class="web-comp">
-        <section class="home-about">
-          <div class="container">
-            <div class="home-about-head grid">
-              <div class="home-about-label txt txt-16 txt-med txt-upper">About Me</div>
-              <div class="home-about-contact">
-                <div class="home-about-contact-item">
-                  <div class="home-about-contact-item-label txt txt-14 txt-upper">Position</div>
-                  <div class="home-about-contact-item-value txt-med txt txt-14 txt-upper">Marketing</div>
-                </div>
-                <div class="home-about-contact-item">
-                  <div class="home-about-contact-item-label txt txt-14 txt-upper">Email</div>
-                  <div class="home-about-contact-item-value txt-med txt txt-14 txt-upper">dylanphan0469@gmail.com</div>
-                </div>
-                <div class="home-about-contact-item">
-                  <div class="home-about-contact-item-label txt txt-14 txt-upper">Phone</div>
-                  <div class="home-about-contact-item-value txt-med txt txt-14 txt-upper">+(213) 555-8573</div>
-                </div>
-              </div>
-            </div>
-            <div class="home-about-main grid">
-              <div class="home-about-avt">
-                <div class="home-about-avt-img">
-                  <img src="./imgs/about.jpg" class="img-basic" alt="">
-                </div>
-              </div>
-              <div class="home-about-content">
-                <div class="home-about-content-inner heading h-32">
-                  <p>Hi, I'm Dylan! Since I was young, I've always been drawn to creativity and expressing ideas through storytelling and presentations. That passion naturally led me to becoming a content creator and developing a strong interest in marketing.</p>
-                  <p>To me, marketing is more than just promotion. It's the way brands position themselves in the minds of customers through meaningful messaging and the value they deliver.</p>
-                  <p>As a Business Administration graduate from Boise State University, I am eager to continue learning, exploring opportunities, and growing within the marketing field. Over the past four years, through internships and various projects, I’ve gained hands-on experience in digital marketing, SEO, email marketing, content creation, data analytics, account management, and performance reporting. I’m also comfortable working with a range of marketing and analytics tools.</p>
-                  <p>With creativity, curiosity, and a strong desire to grow, I'm excited to contribute my skills and collaborate with organizations that value strategic thinking and impactful storytelling.</p>
-                </div>
-                <a href="#" class="home-about-cta btn btn-primary">
-                  <div class="txt txt-14 txt-med txt-upper home-about-cta-txt">DOWNLOAD MY RESUME</div>
-                  <div class="ic-16">
-                    <svg width="100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M14 14H2M12 7.33333L8 11.3333M8 11.3333L4 7.33333M8 11.3333V2" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>                    
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </home-about-wrap>
-      <home-exper-wrap class="web-comp">
-        <section class="home-exper">
-          <div class="div-line home-exper-line"></div>
-          <div class="container grid">
-            <div class="home-exper-label txt txt-16 txt-med txt-upper">Passion & Experience</div>
-            <div class="home-exper-cms">
-              <div class="home-exper-list">
-                <div class="home-exper-item">
-                  <div class="home-exper-item-title heading h-120">4+</div>
-                  <div class="home-exper-item-sub txt txt-20 txt-med">Marketing</div>
-                  <div class="div-line home-exper-item-line"></div>
-                </div>
-                <div class="home-exper-item">
-                  <div class="home-exper-item-title heading h-120">2+</div>
-                  <div class="home-exper-item-sub txt txt-20 txt-med">Social Media</div>
-                  <div class="div-line home-exper-item-line"></div>
-                </div>
-                <div class="home-exper-item">
-                  <div class="home-exper-item-title heading h-120">1+</div>
-                  <div class="home-exper-item-sub txt txt-20 txt-med">account</div>
-                  <div class="div-line home-exper-item-line"></div>
-                </div>
-                <div class="home-exper-item">
-                  <div class="home-exper-item-title heading h-120">45</div>
-                  <div class="home-exper-item-sub txt txt-20 txt-med">Our Project Complete</div>
-                  <div class="div-line home-exper-item-line"></div>
-                </div>
+    </footer>
+  </footer-wrap>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://unpkg.com/lenis@1.3.4/dist/lenis.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script async src="./animation.js"></script>
+<script async src="./main.js"></script>
 
-              </div>
-            </div>
-          </div>
-        </section>
-      </home-exper-wrap>
-      <home-comp-wrap class="web-comp">
-        <section class="home-comp">
-          <div class="home-comp-title txt txt-16 txt-med txt-upper">Software Competencies</div>
-          <div class="home-comp-cms" data-marquee="list" >
-            <div class="home-comp-list" data-marquee="item">
-              <div class="home-comp-item">
-                <img src="./imgs/ic_ai.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-comp-item">
-                <img src="./imgs/ic_canvas.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-comp-item">
-                <img src="./imgs/ic_excel.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-comp-item">
-                <img src="./imgs/ic_figma.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-comp-item">
-                <img src="./imgs/ic_mc.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-comp-item">
-                <img src="./imgs/ic_n.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-comp-item">
-                <img src="./imgs/ic_ps.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-comp-item">
-                <img src="./imgs/ic_slac.svg" class="img-basic" alt="">
-              </div>
-            </div>
-          </div>
-        </section>
-      </home-comp-wrap>
-      <home-skill-wrap>
-        <section class="home-skill">
-          <div class="container">
-            <div class="home-skill-head">
-              <h2 class="heading h-56 txt-upper home-skill-title">Skill</h2>
-              <div class="home-skill-sub txt txt-18">These are areas in Marketing that I specialize in or have had the most exposure with through experiences</div>
-            </div>
-            <div class="home-skill-main">
-              <div class="home-skill-item">
-                <div class="home-skill-item-numb">[01]</div>
-                <div class="home-skill-item-title heading h-56 txt-upper">digital marketing</div>
-                <div class="home-skill-item-sub txt txt-16 txt-med">Video content & script writing</div>
-                <div class="div-line home-skill-item-line"></div>
-                <div class="div-line home-skill-item-bg"></div>
-              </div>
-              <div class="home-skill-item">
-                <div class="home-skill-item-numb">[02]</div>
-                <div class="home-skill-item-title heading h-56 txt-upper">research</div>
-                <div class="home-skill-item-sub txt txt-16 txt-med">Market research & competitor analysis</div>
-                <div class="div-line home-skill-item-line"></div>
-                <div class="div-line home-skill-item-bg"></div>
-              </div>
-              <div class="home-skill-item">
-                <div class="home-skill-item-numb">[03]</div>
-                <div class="home-skill-item-title heading h-56 txt-upper">analysis</div>
-                <div class="home-skill-item-sub txt txt-16 txt-med">SEO on-page, off-page, technical SEO</div>
-                <div class="div-line home-skill-item-line"></div>
-                <div class="div-line home-skill-item-bg"></div>
-              </div>
-              <div class="home-skill-item">
-                <div class="home-skill-item-numb">[04]</div>
-                <div class="home-skill-item-title heading h-56 txt-upper">graphic design</div>
-                <div class="home-skill-item-sub txt txt-16 txt-med">Branding & positioning</div>
-                <div class="div-line home-skill-item-line"></div>
-                <div class="div-line home-skill-item-bg"></div>
-              </div>
-              <div class="home-skill-item">
-                <div class="home-skill-item-numb">[05]</div>
-                <div class="home-skill-item-title heading h-56 txt-upper">content strategy</div>
-                <div class="home-skill-item-sub txt txt-16 txt-med">Content calendar, Facebook Ads </div>
-                <div class="div-line home-skill-item-line"></div>
-                <div class="div-line home-skill-item-bg"></div>
-              </div>
-              <div class="home-skill-item">
-                <div class="home-skill-item-numb">[06]</div>
-                <div class="home-skill-item-title heading h-56 txt-upper">Social Media</div>
-                <div class="home-skill-item-sub txt txt-16 txt-med">Content calendar, Facebook Ads </div>
-                <div class="div-line home-skill-item-line"></div>
-                <div class="div-line home-skill-item-bg"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </home-skill-wrap>
-      <home-brand-wrap class="web-comp">
-        <section class="home-brand">
-          <div class="home-brand-title txt txt-16 txt-med txt-upper">Brands I've worked with:</div>
-          <div class="home-brand-cms" data-marquee="list" >
-            <div class="home-brand-list" data-marquee="item">
-              <div class="home-brand-item">
-                <img src="./imgs/brand1.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-brand-item">
-                <img src="./imgs/brand2.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-brand-item">
-                <img src="./imgs/brand3.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-brand-item">
-                <img src="./imgs/brand4.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-brand-item">
-                <img src="./imgs/brand5.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-brand-item">
-                <img src="./imgs/brand6.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-brand-item">
-                <img src="./imgs/brand7.svg" class="img-basic" alt="">
-              </div>
-              <div class="home-brand-item">
-                <img src="./imgs/brand8.svg" class="img-basic" alt="">
-              </div>
-            </div>
-          </div>
-        </section>
-      </home-comp-wrap>
-      <home-project-wrap class="web-comp">
-        <section class="home-project">
-          <div class="home-project-bg">
-            <img src="./imgs/home-project-bg.jpg" class="img-basic" alt="">
-          </div>
-          <div class="container">
-            <div class="home-project-title heading h-56 txt-upper">RECENT PROJECTS</div>
-            <div class="home-project-cms">
-              <div class="home-project-item grid">
-                <div class="home-project-item-left">
-                  <div class="txt txt-16 home-project-item-label">[01]</div>
-                  <div class="home-project-item-arrow">
-                    <svg width="100%" viewBox="0 0 202 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M198 8L201.5 4.5L198 1M1 4H201V5H1V4Z" stroke="#F9F4E8" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                  <div class="home-project-item-content">
-                    <div class="heading h-32 home-project-item-title">Pirq (Plant- Based Protein Drink) </div>
-                    <div class="txt txt-16 home-project-item-position">Marketing Researcher</div>
-                    <div class="txt txt-16 home-project-item-sub">Pirq is a plant-based protein shake brand focused on clean nutrition, convenience, affordability, and promoting a positive, healthy everyday lifestyle.</div>
-                    <div class="home-project-item-tag">
-                      <div class="txt txt-14 txt-upper home-project-item-tag-item">Digital marketing strategy</div>
-                      <div class="txt txt-14 txt-upper home-project-item-tag-item">Google Analytics</div>
-                      <div class="txt txt-14 txt-upper home-project-item-tag-item">Marketing Researcher</div>
-                    </div>
-                    <a href="#" class="home-project-item-cta hover-arr">
-                      <div class="txt txt-14 txt-med txt-upper home-project-item-cta-txt">View detail</div>
-                      <div class="ic-arr-main">
-                        <div class="ic-arr-item ic-12">
-                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                
-                        </div>
-                        <div class="ic-arr-item ic-12">
-                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="home-project-item-img">
-                  <img src="./imgs/project1.jpg" class="img-basic" alt="">
-                </div>
-              </div>
-              <div class="home-project-item grid">
-                <div class="home-project-item-left">
-                  <div class="txt txt-16 home-project-item-label">[02]</div>
-                  <div class="home-project-item-arrow">
-                    <svg width="100%" viewBox="0 0 202 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M198 8L201.5 4.5L198 1M1 4H201V5H1V4Z" stroke="#F9F4E8" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                  <div class="home-project-item-content">
-                    <div class="heading h-32 home-project-item-title">Pirq (Plant- Based Protein Drink) </div>
-                    <div class="txt txt-16 home-project-item-position">Marketing Researcher</div>
-                    <div class="txt txt-16 home-project-item-sub">Pirq is a plant-based protein shake brand focused on clean nutrition, convenience, affordability, and promoting a positive, healthy everyday lifestyle.</div>
-                    <div class="home-project-item-tag">
-                      <div class="txt txt-14 txt-upper home-project-item-tag-item">Digital marketing strategy</div>
-                      <div class="txt txt-14 txt-upper home-project-item-tag-item">Google Analytics</div>
-                      <div class="txt txt-14 txt-upper home-project-item-tag-item">Marketing Researcher</div>
-                    </div>
-                    <a href="#" class="home-project-item-cta hover-arr">
-                      <div class="txt txt-14 txt-med txt-upper home-project-item-cta-txt">View detail</div>
-                      <div class="ic-arr-main">
-                        <div class="ic-arr-item ic-12">
-                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                
-                        </div>
-                        <div class="ic-arr-item ic-12">
-                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="home-project-item-img">
-                  <img src="./imgs/project2.jpg" class="img-basic" alt="">
-                </div>
-              </div>
-              <div class="home-project-item grid">
-                <div class="home-project-item-left">
-                  <div class="txt txt-16 home-project-item-label">[03]</div>
-                  <div class="home-project-item-arrow">
-                    <svg width="100%" viewBox="0 0 202 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M198 8L201.5 4.5L198 1M1 4H201V5H1V4Z" stroke="#F9F4E8" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                  <div class="home-project-item-content">
-                    <div class="heading h-32 home-project-item-title">Pirq (Plant- Based Protein Drink) </div>
-                    <div class="txt txt-16 home-project-item-position">Marketing Researcher</div>
-                    <div class="txt txt-16 home-project-item-sub">Pirq is a plant-based protein shake brand focused on clean nutrition, convenience, affordability, and promoting a positive, healthy everyday lifestyle.</div>
-                    <div class="home-project-item-tag">
-                      <div class="txt txt-14 txt-upper home-project-item-tag-item">Digital marketing strategy</div>
-                      <div class="txt txt-14 txt-upper home-project-item-tag-item">Google Analytics</div>
-                      <div class="txt txt-14 txt-upper home-project-item-tag-item">Marketing Researcher</div>
-                    </div>
-                    <a href="#" class="home-project-item-cta hover-arr">
-                      <div class="txt txt-14 txt-med txt-upper home-project-item-cta-txt">View detail</div>
-                      <div class="ic-arr-main">
-                        <div class="ic-arr-item ic-12">
-                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                
-                        </div>
-                        <div class="ic-arr-item ic-12">
-                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="home-project-item-img">
-                  <img src="./imgs/project3.jpg" class="img-basic" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </home-project-wrap>
-      <home-thumb-wrap class="web-comp">
-        <section class="home-thumb">
-          <div class="home-thumb-inner">
-            <div class="home-thumb-cms" data-marquee="list" data-direction="left">
-              <div class="home-thumb-list" data-marquee="item">
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee1.jpg" class="img-h" alt="">
-                </div>
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee2.jpg" class="img-h" alt="">
-                </div>
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee3.jpg" class="img-h" alt="">
-                </div>
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee4.jpg" class="img-h" alt="">
-                </div>
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee5.jpg" class="img-h" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="home-thumb-cms" data-marquee="list" data-direction="right">
-              <div class="home-thumb-list" data-marquee="item">
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee6.jpg" class="img-h" alt="">
-                </div>
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee7.jpg" class="img-h" alt="">
-                </div>
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee8.jpg" class="img-h" alt="">
-                </div>
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee9.jpg" class="img-h" alt="">
-                </div>
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee10.jpg" class="img-h" alt="">
-                </div>
-                <div class="home-thumb-item">
-                  <img src="./imgs/marquee11.jpg" class="img-h" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </home-thumb-wrap>
-      <home-social-wrap class="web-comp">
-        <section class="home-social">
-          <div class="container">
-            <div class="home-social-head">
-              <h2 class="heading h-56 home-social-title txt-upper">Social Media Marketing </h2>
-              <div class="home-social-sub txt txt-18">These are areas in Marketing that I specialize in or have had the most exposure with through experiences</div>
-            </div>
-            <div class="home-social-cms">
-              <div class="home-social-list">
-                <div class="home-social-item">
-                  <div class="home-social-item-img">
-                    <img src="./imgs/social.webp" class="img-basic" alt="">
-                  </div>
-                  <div class="home-social-item-content">
-                    <div class="home-social-item-logo-wrap">
-                      <div class="home-social-item-logo">
-                        <img src="./imgs/social-logo1.svg" class="img-basic" alt="">
-                      </div>
-                      <div class="home-social-item-number txt txt-14 txt-upper">001</div>
-                    </div>
-                    <div class="home-social-item-title-wrap">
-                      <div class="txt txt-20 txt-med home-social-item-title">UGC Content Creator for Arrowster</div>
-                      <div class="txt txt-16 home-social-item-sub">Collaborated with Arrowster to produce UGC and creator-led content promoting their AI-powered study abroad platform. Helped grow the social media page to 8,000+ followers while driving awareness and traffic to the website.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="home-social-item">
-                  <div class="home-social-item-img">
-                    <img src="./imgs/social.webp" class="img-basic" alt="">
-                  </div>
-                  <div class="home-social-item-content">
-                    <div class="home-social-item-logo-wrap">
-                      <div class="home-social-item-logo">
-                        <img src="./imgs/social-logo2.svg" class="img-basic" alt="">
-                      </div>
-                      <div class="home-social-item-number txt txt-14 txt-upper">002</div>
-                    </div>
-                    <div class="home-social-item-title-wrap">
-                      <div class="txt txt-20 txt-med home-social-item-title">Social Media Marketing Strategy for UMEVQ AI</div>
-                      <div class="txt txt-16 home-social-item-sub">UMEVO.ai is an AI-powered platform designed for smart meeting recording and note-taking. It automatically records meetings, converts speech into text (transcription), and generates notes, allowing users to capture important information without manually taking notes.</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="home-social-job-wrap">
-              <div class="home-social-job">
-                <div class="home-social-job-list">
-                  <div class="home-social-job-item">
-                    <div class="home-social-job-item-img">
-                      <img src="./imgs/social.webp" class="img-basic" alt="">
-                    </div>
-                    <div class="home-social-job-item-title txt txt-20 txt-med">Social Media Marketing Strategy for UMEVQ AI</div>
-                  </div>
-                  <div class="home-social-job-item">
-                    <div class="home-social-job-item-img">
-                      <img src="./imgs/social2.webp" class="img-basic" alt="">
-                    </div>
-                    <div class="home-social-job-item-title txt txt-20 txt-med"> UGC Content Creator for Arrowster</div>
-                  </div>
-                  <div class="home-social-job-item">
-                    <div class="home-social-job-item-img">
-                      <img src="./imgs/social3.webp" class="img-basic" alt="">
-                    </div>
-                    <div class="home-social-job-item-title txt txt-20 txt-med">Social Media Marketing Strategy for brand Ecomobi</div>
-                  </div>
-                  <div class="home-social-job-item">
-                    <div class="home-social-job-item-img">
-                      <img src="./imgs/social4.webp" class="img-basic" alt="">
-                    </div>
-                    <div class="home-social-job-item-title txt txt-20 txt-med">Social Media Marketing Strategy for UMEVQ AI</div>
-                  </div>
-                </div>
-              </div>
-              <div class="home-social-job-view">
-                <div class="home-social-job-view-ic">
-                  <img src="./imgs/arrow.svg" class="img-basic" alt="">
-                </div>
-                <div class="home-social-job-view-content">
-                  <div class="home-social-job-view-title heading h-90 ">203k</div>
-                  <div class="home-social-job-view-sub heading h-24">Views</div>
-                </div>
-              </div>
-            </div>
-            <div class="home-social-img">
-              <img src="./imgs/data.jpg" class="img-basic" alt="">
-            </div>
-          </div>
-        </section>
-      </home-social-wrap>
-      <home-img-wrap class="web-comp">
-        <div class="home-img">
-          <div class="home-img-inner">
-            <img src="./imgs/thumb.jpg" loading="lazy" class="img-basic" alt="">
-          </div>
-        </div>
-      </home-img-wrap>
-      <home-micro-wrap class="web-comp">
-        <section class="home-micro">
-          <div class="container">
-            <div class="home-micro-inner">
-              <div class="home-micro-head">
-                <div class="home-micro-title-wrap">
-                  <h2 class="home-micro-title heading h-56 txt-upper">MICRO INFLUENCER</h2>
-                  <div class="home-micro-social">
-                    <a href="#" class="home-micro-social-item hover-arr">
-                      <div class="home-micro-social-item-txt txt-16 txt-med txt-upper">Tiktok</div>
-                      <div class="ic-arr-main">
-                        <div class="ic-arr-item ic-14">
-                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                
-                        </div>
-                        <div class="ic-arr-item ic-14">
-                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                
-                        </div>
-                      </div>
-                    </a>
-                    <a href="#" class="home-micro-social-item hover-arr">
-                      <div class="home-micro-social-item-txt txt-16 txt-med txt-upper">Instagram</div>
-                      <div class="ic-arr-main">
-                        <div class="ic-arr-item ic-14">
-                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                
-                        </div>
-                        <div class="ic-arr-item ic-14">
-                          <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                            <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div class="home-micro-img">
-                  <img src="./imgs/micro-head.jpg" class="img-basic" alt="">
-                </div>
-              </div>
-              <div class="home-micro-cms">
-                <div class="home-micro-list">
-                  <div class="home-micro-item">
-                    <div class="home-micro-item-content">
-                      <div class="home-micro-item-label-wrap">
-                        <div class="home-micro-item-ic">
-                          <svg width="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 58.6663V45.333M12 18.6663V5.33301M5.33334 11.9997H18.6667M5.33334 51.9997H18.6667M34.6667 7.99967L30.0422 20.0233C29.2902 21.9786 28.9142 22.9562 28.3294 23.7786C27.8112 24.5074 27.1744 25.1442 26.4456 25.6624C25.6232 26.2472 24.6456 26.6232 22.6903 27.3752L10.6667 31.9997L22.6903 36.6241C24.6456 37.3762 25.6232 37.7522 26.4456 38.3369C27.1744 38.8552 27.8112 39.4919 28.3294 40.2208C28.9142 41.0431 29.2902 42.0208 30.0422 43.976L34.6667 55.9997L39.2912 43.976C40.0432 42.0208 40.4192 41.0431 41.0039 40.2208C41.5222 39.4919 42.159 38.8552 42.8878 38.3369C43.7101 37.7522 44.6878 37.3762 46.643 36.6241L58.6667 31.9997L46.643 27.3752C44.6878 26.6232 43.7101 26.2472 42.8878 25.6624C42.1589 25.1442 41.5222 24.5074 41.0039 23.7786C40.4192 22.9562 40.0432 21.9786 39.2911 20.0233L34.6667 7.99967Z" stroke="#FF3B0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>                          
-                        </div>
-                        <div class="home-micro-item-label txt txt-14 txt-upper">001</div>
-                      </div>
-                      <div class="home-micro-item-sub txt txt-16">As a micro creator, I document my journey as an international student, sharing insights from my academic experience and personal growth. I create lifestyle, travel, and day-in-the-life content that reflects my real experiences abroad. My content connects deeply with international students and Gen Z audiences who see their own journeys reflected in my story.</div>
-                    </div>
-                    <div class="home-micro-item-img">
-                      <div class="home-micro-item-img-inner">
-                        <img src="./imgs/social.webp" class="img-basic" alt="">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="home-micro-item item-revert">
-                    <div class="home-micro-item-content">
-                      <div class="home-micro-item-label-wrap">
-                        <div class="home-micro-item-ic">
-                          <svg width="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M48 42.2317C51.8824 44.182 55.211 47.3119 57.6406 51.2257C58.1218 52.0007 58.3623 52.3882 58.4455 52.9249C58.6145 54.0154 57.8688 55.3561 56.8532 55.7876C56.3534 56 55.7911 56 54.6667 56M42.6667 30.7526C46.6179 28.789 49.3333 24.7116 49.3333 20C49.3333 15.2884 46.6179 11.211 42.6667 9.24736M37.3333 20C37.3333 26.6274 31.9607 32 25.3333 32C18.7059 32 13.3333 26.6274 13.3333 20C13.3333 13.3726 18.7059 8 25.3333 8C31.9607 8 37.3333 13.3726 37.3333 20ZM6.82461 50.5022C11.0761 44.1188 17.785 40 25.3333 40C32.8817 40 39.5906 44.1188 43.842 50.5022C44.7734 51.9007 45.2391 52.5999 45.1855 53.4931C45.1438 54.1886 44.6879 55.04 44.1322 55.4602C43.4185 56 42.4369 56 40.4737 56H10.1929C8.22978 56 7.2482 56 6.5345 55.4602C5.97879 55.04 5.52289 54.1886 5.48115 53.4931C5.42753 52.5999 5.89323 51.9007 6.82461 50.5022Z" stroke="#FF3B0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>                                                     
-                        </div>
-                        <div class="home-micro-item-label txt txt-14 txt-upper">002</div>
-                      </div>
-                      <div class="home-micro-item-sub txt txt-16">I collaborate with startups and brands to create authentic, engaging content that showcases their products in a natural and relatable way. My goal is to tell genuine stories that resonate with my audience while highlighting each brand’s unique value. Through creative visuals and thoughtful storytelling, I help brands build trust, increase visibility, and connect with potential customers.</div>
-                    </div>
-                    <div class="home-micro-item-img">
-                      <div class="home-micro-item-img-inner">
-                        <img src="./imgs/social.webp" class="img-basic" alt="">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="home-micro-item">
-                    <div class="home-micro-item-content">
-                      <div class="home-micro-item-label-wrap">
-                        <div class="home-micro-item-ic">
-                          <svg width="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32 5.33301V7.99967M8.00001 31.9997H5.33334M14.6667 14.6663L13.0664 13.0661M49.3333 14.6663L50.934 13.0661M58.6667 31.9997H56M26.6667 35.9997H37.3333M32 35.9997V49.333M41.3333 44.9969C45.3709 42.0924 48 37.3531 48 31.9997C48 23.1631 40.8366 15.9997 32 15.9997C23.1635 15.9997 16 23.1631 16 31.9997C16 37.3531 18.6292 42.0924 22.6667 44.9969V50.133C22.6667 53.12 22.6667 54.6134 23.248 55.7543C23.7593 56.7578 24.5752 57.5737 25.5787 58.085C26.7196 58.6663 28.2131 58.6663 31.2 58.6663H32.8C35.787 58.6663 37.2804 58.6663 38.4213 58.085C39.4248 57.5737 40.2407 56.7578 40.752 55.7543C41.3333 54.6134 41.3333 53.12 41.3333 50.133V44.9969Z" stroke="#FF3B0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>                                                    
-                        </div>
-                        <div class="home-micro-item-label txt txt-14 txt-upper">003</div>
-                      </div>
-                      <div class="home-micro-item-sub txt txt-16">I explore neuroscience and personal development and transform these concepts into accessible, relatable content that helps my audience better understand their mindset, behavior, and growth.</div>
-                    </div>
-                    <div class="home-micro-item-img">
-                      <div class="home-micro-item-img-inner">
-                        <img src="./imgs/social.webp" class="img-basic" alt="">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="home-micro-item item-revert">
-                    <div class="home-micro-item-content">
-                      <div class="home-micro-item-label-wrap">
-                        <div class="home-micro-item-ic">
-                          <svg width="100%" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M56 56H12.2667C10.7732 56 10.0265 56 9.45603 55.7094C8.95426 55.4537 8.54631 55.0457 8.29065 54.544C8 53.9735 8 53.2268 8 51.7333V8M56 18.6667L41.5085 33.1582C40.9805 33.6862 40.7165 33.9502 40.412 34.0491C40.1442 34.1361 39.8558 34.1361 39.588 34.0491C39.2835 33.9502 39.0195 33.6862 38.4915 33.1582L33.5085 28.1752C32.9805 27.6471 32.7165 27.3831 32.412 27.2842C32.1442 27.1972 31.8558 27.1972 31.588 27.2842C31.2835 27.3831 31.0195 27.6471 30.4915 28.1752L18.6667 40M56 18.6667H45.3333M56 18.6667V29.3333" stroke="#FF3B0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>                                               
-                        </div>
-                        <div class="home-micro-item-label txt txt-14 txt-upper">004</div>
-                      </div>
-                      <div class="home-micro-item-sub txt txt-16">Additionally, I apply A/B testing to experiment with different content formats and messaging styles to understand what resonates best with the audience. I refine content strategies based on these insights and use analytics tools to track performance, evaluate effectiveness, and continuously improve engagement and results.</div>
-                    </div>
-                    <div class="home-micro-item-img">
-                      <div class="home-micro-item-img-inner">
-                        <img src="./imgs/social.webp" class="img-basic" alt="">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </home-micro-wrap>
-      <home-profile-wrap class="web-comp">
-        <div class="home-profile-wrap">
-          <div class="home-profile-thumb">
-            <div class="home-profile-thumb-inner">
-              <div class="home-profile-thumb-item item1">
-                <img src="./imgs/profile1.jpg" class="img-basic" alt="">
-              </div>
-              <div class="home-profile-thumb-item item2">
-                <img src="./imgs/profile2.jpg" class="img-basic" alt="">
-              </div>
-              <div class="home-profile-thumb-item item3">
-                <img src="./imgs/profile3.jpg" class="img-basic" alt="">
-              </div>
-              <div class="home-profile-thumb-item item4">
-                <img src="./imgs/profile4.jpg" class="img-basic" alt="">
-              </div>
-              <div class="home-profile-thumb-item item5">
-                <img src="./imgs/profile5.jpg" class="img-basic" alt="">
-              </div>
-              <div class="home-profile-thumb-item item6">
-                <img src="./imgs/profile6.jpg" class="img-basic" alt="">
-              </div>
-              <div class="home-profile-thumb-item item7">
-                <img src="./imgs/profile8.jpg" class="img-basic" alt="">
-              </div>
-              <div class="home-profile-thumb-item item8">
-                <img src="./imgs/profile7.jpg" class="img-basic" alt="">
-              </div>
-            </div>
-          </div>
-          <section class="home-profile">
-            <div class="home-profile-bg">
-              <img src="./imgs/home-profile.jpg" class="img-basic img-fill" alt="">
-            </div>
-            <div class="container">
-              <div class="home-profile-social-wrap">
-                <a href="mailto:dylanphan0469@gmail.com" class="home-profile-social txt txt-14 txt-med txt-upper">dylanphan0469@gmail.com</a>
-                <a href="#" class="home-profile-social txt txt-14 txt-med txt-upper">Boise, Idaho</a>
-                <a href="tel:+12135558573" class="home-profile-social txt txt-14 txt-med txt-upper">+(213) 555-8573</a>
-              </div>
-              <div class="home-profile-title-wrap">
-                <div class="home-profile-label txt txt-16 txt-med txt-upper">[Social Media Marketing]</div>
-                <h2 class="home-profile-title heading h-56">Social Media Marketing Strategy for UMEVQ AI</h2>
-              </div>
-            </div>
-          </section>
-        </div>
-      </home-profile-wrap>\
-      <home-certi-wrap class="web-comp">
-        <section class="home-certi">
-          <div class="container">
-            <h2 class="home-certi-title heading h-56 txt-upper">Certificate</h2>
-            <div class="home-certi-main">
-              <div class="home-certi-img-wrap">
-                <div class="home-certi-img active">
-                  <img src="./imgs/certi.jpg" class="img-basic" alt="">
-                </div>
-                <div class="home-certi-img">
-                  <img src="./imgs/certi.jpg" class="img-basic" alt="">
-                </div>
-                <div class="home-certi-img">
-                  <img src="./imgs/certi.jpg" class="img-basic" alt="">
-                </div>
-              </div>
-              <div class="home-certi-cms">
-                <div class="home-certi-list">
-                  <div class="home-certi-item">
-                    <div class="div-line home-certi-item-line">
-                        <div class="div-line home-certi-item-inner"></div>
-                    </div>
-                    <div class="home-certi-item-content">
-                      <div class="home-certi-item-num txt txt-20 txt-upper">001</div>
-                      <div class="home-certi-item-title heading h-32">Marketing Analytics Foundations</div>
-                      <div class="home-certi-item-year txt txt-20 txt-upper">2026</div>
-                    </div>
-                    <div class="home-certi-item-img">
-                      <img src="./imgs/certi.jpg" class="img-basic" alt="">
-                    </div>
-                  </div>
-                  <div class="home-certi-item">
-                    <div class="div-line home-certi-item-line">
-                        <div class="div-line home-certi-item-inner"></div>
-                    </div>
-                    <div class="home-certi-item-content">
-                      <div class="home-certi-item-num txt txt-20 txt-upper">002</div>
-                      <div class="home-certi-item-title heading h-32">Marketing Analytics</div>
-                      <div class="home-certi-item-year txt txt-20 txt-upper">2025</div>
-                    </div>
-                    <div class="home-certi-item-img">
-                      <img src="./imgs/certi.jpg" class="img-basic" alt="">
-                    </div>
-                  </div>
-                  <div class="home-certi-item">
-                    <div class="div-line home-certi-item-line">
-                        <div class="div-line home-certi-item-inner"></div>
-                    </div>
-                    <div class="home-certi-item-content">
-                      <div class="home-certi-item-num txt txt-20 txt-upper">003</div>
-                      <div class="home-certi-item-title heading h-32">digital Marketing_</div>
-                      <div class="home-certi-item-year txt txt-20 txt-upper">2025</div>
-                    </div>
-                    <div class="home-certi-item-img">
-                      <img src="./imgs/certi.jpg" class="img-basic" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </section>
-      </home-certi-wrap>
-    </main>
-    <footer-wrap class="web-comp">
-      <footer class="footer">
-        <div class="footer-bg">
-          <img src="./imgs/footer-bg.jpg" class="img-basic" alt="">
-        </div>
-        <div class="container">
-          <div class="footer-top">
-            <div class="footer-head">
-              <div class="footer-name txt txt-20 txt-med txt-upper">Dylanphannnn</div>
-              <div class="footer-contact">
-                <div class="footer-contact-item">
-                  <div class="footer-contact-item-label txt txt-14 txt-upper">Email</div>
-                  <a href="mailTo:dylanphan0469@gmail.com" class="footer-contact-item-title txt txt-18 txt-med txt-upper hover-un">dylanphan0469@gmail.com</a>
-                </div>
-                <div class="footer-contact-item">
-                  <div class="footer-contact-item-label txt txt-14 txt-upper">Address</div>
-                  <a class="footer-contact-item-title txt txt-18 txt-med txt-upper hover-un">Boise, Idaho</a>
-                </div>
-                <div class="footer-contact-item">
-                  <div class="footer-contact-item-label txt txt-14 txt-upper">Phone</div>
-                  <a href="tel:+12135558573" class="footer-contact-item-title txt txt-18 txt-med txt-upper hover-un">+(213) 555-8573</a>
-                </div>
-              </div>
-            </div>
-            <div class="footer-marquee-cms" data-marquee="list">
-              <div class="footer-marquee-list" data-marquee="item">
-                <div class="footer-marquee-item heading h-160 txt-upper">get in touch_</div>
-              </div>
-              <div class="footer-marquee-list" data-marquee="item">
-                <div class="footer-marquee-item heading h-160 txt-upper">get in touch_</div>
-              </div>
-            </div>
-            <div class="footer-social">
-              <a href="#" class="footer-social-item hover-arr">
-                <div class="txt txt-14 txt-upper home-hero-social-item-txt">linkedin</div>
-                <div class="ic-arr-main">
-                  <div class="ic-arr-item ic-14">
-                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                
-                  </div>
-                  <div class="ic-arr-item ic-14">
-                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="footer-social-item hover-arr">
-                <div class="txt txt-14 txt-upper home-hero-social-item-txt">Instagram </div>
-                <div class="ic-arr-main">
-                  <div class="ic-arr-item ic-14">
-                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                
-                  </div>
-                  <div class="ic-arr-item ic-14">
-                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                
-                  </div>
-                </div>
-              </a>
-              <a href="#" class="footer-social-item hover-arr">
-                <div class="txt txt-14 txt-upper home-hero-social-item-txt">Twitter</div>
-                <div class="ic-arr-main">
-                  <div class="ic-arr-item ic-14">
-                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                
-                  </div>
-                  <div class="ic-arr-item ic-14">
-                    <svg width="100%" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 11.2857L11.2857 1" stroke="currentColor" stroke-width="2"/>
-                      <path d="M1 1H11.2857V11.2857" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>                
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="footer-copy">
-            <div class="footer-copy-txt txt txt-14 txt-upper">Copyright © <span class="current-year">2026</span></div>
-            <div class="footer-menu">
-              <a href="#" class="footer-menu-item hover-un txt txt-14 txt-upper txt-med">About Me</a>
-              <a href="#" class="footer-menu-item hover-un txt txt-14 txt-upper txt-med">Experience</a>
-              <a href="#" class="footer-menu-item hover-un txt txt-14 txt-upper txt-med">Projects</a>
-              <a href="#" class="footer-menu-item hover-un txt txt-14 txt-upper txt-med">Contact</a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </footer-wrap>
-  </body>
-  </html>
+</html>
