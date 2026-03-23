@@ -1468,6 +1468,10 @@
 }
 
 @media (max-width: 767px) {
+  .home-micro-img {
+    margin-bottom: 3.2rem;
+  }
+
   .home-micro {
     padding-block: 6rem;
   }
