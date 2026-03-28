@@ -176,6 +176,11 @@
   justify-content: center;
   position: relative;
   gap: 1.4rem;
+  transition: background-color .4s ease;
+}
+
+.home-hero-cta:hover {
+  background-color: #c92500;
 }
 
 .home-hero-center {
